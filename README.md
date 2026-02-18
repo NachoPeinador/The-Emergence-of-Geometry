@@ -1,6 +1,3 @@
-¡Claro que sí! Aquí tienes el contenido completo del `README.md` listo para copiar y pegar en tu editor de GitHub. He incluido los **badges** (escudos), las tablas de precisión y las ecuaciones en LaTeX que GitHub renderiza nativamente.
-
-```markdown
 # The Emergence of Geometry: $\pi$ as the Imaginary Phase of Modular Information
 
 [![Read in Spanish](https://img.shields.io/badge/Lang-Leer%20en%20Español-red?style=flat&logoColor=white&color=B31B1B)](#)
