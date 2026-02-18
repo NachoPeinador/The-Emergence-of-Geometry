@@ -305,6 +305,118 @@ Castro, C., \& Mahecha, J. (2001). \textit{On Riemann’s Hypothesis, Complex En
 
 \end{thebibliography}
 
+% ==============================================================================
+% AGRADECIMIENTOS
+% ==============================================================================
+\section*{Agradecimientos}
+
+El autor expresa su gratitud a:
+
+\begin{itemize}
+    \item La comunidad de desarrollo de software de código abierto, particularmente a los creadores y mantenedores de \textsc{Python} y de la librería \textsc{mpmath}. Sin la capacidad de realizar aritmética de precisión arbitraria de forma accesible, la validación de 150 dígitos presentada en la Sección \ref{sec:validacion} habría sido imposible.
+
+    \item A los arquitectos de \textsc{Google Colab}, por democratizar el acceso a entornos computacionales reproducibles que permiten a investigadores independientes auditar y compartir sus resultados sin barreras económicas.
+
+    \item A la tradición intelectual que, desde Shannon hasta Wheeler, ha ido sembrando la intuición de que la información podría ser más fundamental que la materia y la geometría. La célebre máxima de Wheeler, \textit{``It from Bit''}, ha sido una inspiración constante.
+
+    \item A los interlocutores anónimos en foros especializados que, con su escepticismo constructivo y preguntas incisivas, obligaron a refinar los argumentos y buscar las demostraciones más sólidas.
+\end{itemize}
+
+% ==============================================================================
+% DECLARACIÓN DE USO DE IA
+% ==============================================================================
+\section*{Declaración de Uso de IA}
+
+En coherencia con los principios de transparencia científica, se declara que en la preparación de este manuscrito se utilizaron herramientas de inteligencia artificial (modelos de lenguaje de gran escala, LLM) como apoyo instrumental en las siguientes tareas:
+
+\begin{enumerate}
+    \item \textbf{Refinamiento de la redacción técnica:} Mejora de la fluidez y precisión del lenguaje científico, tanto en español como en las versiones traducidas al inglés.
+    \item \textbf{Revisión de consistencia lógica:} Simulación de un proceso de revisión crítica (\textit{adversarial review}) para identificar posibles saltos argumentales o falacias preliminares.
+    \item \textbf{Optimización de código:} Asistencia en la refactorización de los scripts de validación numérica de alta precisión (150 dígitos) para garantizar su claridad y reproducibilidad.
+\end{enumerate}
+
+\textbf{Puntualización crucial:} El contenido intelectual fundamental de este trabajo —la hipótesis del sustrato $\mathbb{Z}/6\mathbb{Z}$, la derivación de la identidad $\pi = -i (\ln \zeta(0) + \ln 2)$, la interpretación de $\zeta(0)$ como estado termodinámico del vacío, y todas las conclusiones físicas y ontológicas— es obra exclusiva del autor. Las herramientas de IA actuaron como asistentes de proceso, no como agentes de descubrimiento conceptual.
+
+% ==============================================================================
+% DECLARACIÓN DE INTERESES Y FINANCIACIÓN
+% ==============================================================================
+\section*{Declaración de Intereses y Financiación}
+
+\begin{itemize}
+    \item \textbf{Financiación:} Esta investigación ha sido realizada íntegramente con recursos propios del autor. No ha recibido financiación externa, pública ni privada.
+
+    \item \textbf{Conflictos de interés:} El autor declara no tener ningún conflicto de interés, financiero, profesional o personal, que pudiera haber influido en el diseño, ejecución o interpretación de los resultados presentados en este trabajo.
+\end{itemize}
+
+% ==============================================================================
+% DISPONIBILIDAD DE DATOS Y MATERIALES
+% ==============================================================================
+\section*{Disponibilidad de Datos y Materiales}
+
+En concordancia con los principios de ciencia abierta y reproducibilidad, todos los materiales asociados a esta investigación son de acceso público:
+
+\begin{itemize}
+    \item \textbf{Código fuente:} Los scripts completos de validación numérica con precisión de 150 dígitos (implementados en Python utilizando la biblioteca \texttt{mpmath}) están disponibles en el siguiente repositorio:
+    \begin{center}
+    \url{https://github.com/NachoPeinador/The-Genesis-of-e}
+    \end{center}
+
+    \item \textbf{Entornos reproducibles:} Se proporcionan notebooks interactivos de Google Colab que permiten ejecutar y verificar de forma inmediata la identidad fundamental $\pi = -i (\ln \zeta(0) + \ln 2)$ y todas las comprobaciones auxiliares.
+
+    \item \textbf{Datos derivados:} Las tablas de resultados numéricos y los logs de las ejecuciones de alta precisión se incluyen como material complementario en el repositorio.
+\end{itemize}
+
+Cualquier investigador con conexión a internet puede, por tanto, replicar íntegramente los resultados de la Sección \ref{sec:validacion} en cuestión de minutos.
+
+% ==============================================================================
+% CONTRIBUCIÓN DEL AUTOR
+% ==============================================================================
+\section*{Contribución del Autor}
+
+\textbf{José Ignacio Peinador Sala} es el único autor de este trabajo y asume la responsabilidad completa sobre todas sus partes:
+
+\begin{itemize}
+    \item \textbf{Concepción teórica:} Formulación de la hipótesis del sustrato modular $\mathbb{Z}/6\mathbb{Z}$ como capa fundamental de procesamiento de información. Postulado de que $\zeta(0)$ representa el estado termodinámico del vacío aritmético.
+
+    \item \textbf{Desarrollo matemático:} Derivación analítica de la identidad $\pi = -i (\ln \zeta(0) + \ln 2)$. Conexión formal con la Identidad de Euler y con la impedancia informacional $R_{\text{fund}}$ de trabajos previos.
+
+    \item \textbf{Validación numérica:} Diseño e implementación del protocolo de validación de precisión arbitraria (150 dígitos) y análisis de los resultados.
+
+    \item \textbf{Interpretación ontológica:} Elaboración del marco conceptual que sitúa la geometría como fase emergente de la aritmética y la información.
+
+    \item \textbf{Redacción:} Escritura completa del manuscrito, preparación de figuras y tablas, y revisión final.
+\end{itemize}
+
+% ==============================================================================
+% CORRESPONDENCIA
+% ==============================================================================
+\section*{Correspondencia}
+
+Toda correspondencia científica relacionada con este trabajo debe dirigirse a:
+
+\begin{center}
+\textbf{José Ignacio Peinador Sala} \\
+\textit{Investigador Independiente} \\
+Valladolid, España \\
+\href{mailto:joseignacio.peinador@gmail.com}{joseignacio.peinador@gmail.com}
+\end{center}
+
+\noindent El autor acogerá con interés cualquier comentario, réplica, sugerencia de mejora o intento de falsación experimental de las hipótesis aquí presentadas.
+
+\vspace{1cm}
+\begin{center}
+\textit{A mi mujer, a mi hijo y a mi perro:} \
+\textit{sin vuestro amor incondicional, no habría sobrevivido a esta aventura.}
+
+\vspace{0.5cm}
+\textit{Solo soy una persona humilde que con curiosidad, perseverancia,} \
+\textit{libertad para preguntar, y cierta insolencia,} \
+\textit{se atrevió a caminar el camino de la ciencia.}
+
+\vspace{0.5cm}
+\textit{Cualquier otra persona podría haberlo hecho.}
+\end{center}
+
 % ----------------------------------------------------------------------
 \appendix
 \section{Análisis de Sustitución: De la Geometría a la Aritmética del Vacío}
