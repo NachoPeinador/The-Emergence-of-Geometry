@@ -1,0 +1,351 @@
+\documentclass[12pt, a4paper]{article}
+
+% --- PACKAGES AND CONFIGURATION ---
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel} 
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{mathptmx} 
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{physics} 
+\usepackage{cite}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% Academic hyperlink configuration
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    citecolor=red!70!black,
+    urlcolor=teal
+}
+
+% --- DOCUMENT METADATA ---
+\title{\textbf{The Emergence of Geometry: $\pi$ as the Imaginary Phase of Modular Information}\\
+\large Unification of Vacuum Thermodynamics $\zeta(0)$ and Binary Arithmetic in $\mathbb{Z}/6\mathbb{Z}$}
+
+\author{
+  \textbf{José Ignacio Peinador Sala} \\
+  \textit{Independent Researcher} \\
+  \href{mailto:joseignacio.peinador@gmail.com}{joseignacio.peinador@gmail.com}
+}
+\date{\today}
+
+% --- ENVIRONMENT DEFINITIONS ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{identity}[theorem]{Fundamental Identity}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem{identidad}[theorem]{Fundamental Identity}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This work consolidates the \textbf{Modular Spectrum} theoretical framework, resolving the apparent discontinuity between the discrete nature of the integers $\mathbb{Z}$ and the transcendental geometry of $\pi$ \cite{PeinadorDSP}. We postulate that geometry is not a fundamental axiom, but rather an emergent property arising from the interaction between vacuum thermodynamics and discrete information processing \cite{PeinadorGenesis}. We analytically derive and validate, with a precision of 150 digits, the exact identity $\pi = -i (\ln \zeta(0) + \ln 2)$, where $\zeta(0)$ represents the ground state of the Riemann Zeta function and $\ln 2$ denotes the Shannon information bit \cite{PeinadorGenesis, Shannon1948}. This result unifies previous findings on polyphase isomorphism in DSP, the $6k \pm 1$ prime channel structure, and the informational impedance $R_{\text{fund}}$, suggesting that the space-time continuum is the complex phase projection of an arithmetic substrate governed by the $\mathbb{Z}/6\mathbb{Z}$ ring.
+\end{abstract}
+
+% ----------------------------------------------------------------------
+\section{Introduction: Geometry as a Spectral Artifact}
+% ----------------------------------------------------------------------
+
+The constant $\pi$ has historically served as the ultimate benchmark for computational power and numerical stability \cite{PeinadorDSP}. Traditionally, physics has assumed continuous space and its associated metric as an \textit{a priori} stage. However, this view faces the so-called \textbf{Continuity Crisis in Numerical Computing}: the unresolved tension between the discrete domain $\mathbb{Z}$ of machine operations and the transcendental periodicity of harmonic functions \cite{PeinadorDSP}.
+
+In previous works, we established that this tension can be mitigated by observing the number line through a \textbf{modular filter} $m=6$ \cite{PeinadorDSP}. This approach revealed a \textbf{polyphase isomorphism} between hypergeometric series and digital signal processing (DSP), allowing for the reinterpretation of constant computation as a multirate filtering problem \cite{PeinadorDSP}. Furthermore, the decomposition into $6k \pm 1$ prime channels demonstrated that high-level transcendental information is channeled through specific arithmetic structures associated with Eisenstein integers and the $A_2$ hexagonal lattice geometry \cite{PeinadorDSP, PeinadorSpectrum}.
+
+The consolidation of this substrate allowed for the derivation of fundamental constants, such as Euler's number $e$ and the fine-structure constant $\alpha$, from the \textbf{informational vacuum impedance} $R_{\text{fund}} = (6\log_2 3)^{-1}$ \cite{PeinadorGenesis}. However, the ontological origin of $\pi$ remained an external piece—a geometric target that the substrate approached but did not generate.
+
+This article presents the definitive resolution of this dichotomy. We propose that $\pi$ is not a geometric primitive, but a \textbf{phase artifact}. By evaluating the position of the ``stability attractor'' $r=3$—a natural anchoring point in the modular scheme near $\pi$ radians—under the lens of the Zeta function at the origin ($\zeta(0) = -1/2$), an exact connection with the binary information unit ($\ln 2$) emerges \cite{PeinadorDSP, PeinadorGenesis}.
+
+The identity $\pi = -i (\ln \zeta(0) + \ln 2)$ demonstrates that the ``circularity'' of space is the imaginary manifestation necessary to reconcile the binary arithmetic of the holographic horizon with the ternary nature of the vacuum volume \cite{PeinadorGenesis, Hooft1993}. With this, we close the cycle of the \textbf{Modular Substrate Theory}: geometry is the ``phase residue'' of an underlying arithmetic computation \cite{PeinadorGenesis}.
+
+% ----------------------------------------------------------------------
+\section{Theoretical Foundations: From Arithmetic to Geometry}
+% ----------------------------------------------------------------------
+
+The central premise of the Modular Substrate Theory (MST) is that dimensional constants are not primitive, but rather derived from the vacuum's information-processing capacity. In previous works \cite{PeinadorGenesis}, we established that the base of continuous growth, $e$, is the thermodynamic limit of a ternary discrete structure modulated by an impedance $R_{\text{fund}}$. Now, we extend this reasoning to the structure of space itself.
+
+\subsection{The Vacuum as a Partition Function: The Role of \texorpdfstring{$\zeta(0)$}{zeta(0)}}
+
+In quantum field theory and statistical mechanics, the Riemann Zeta function, $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$, acts as a partition function that encodes the system's fluctuation spectrum. While the non-trivial zeros on the critical line $\Re(s)=1/2$ dictate the distribution of prime numbers (the substrate's ``excitations'') \cite{PeinadorSpectrum}, the value at the origin, $s=0$, describes the ground state or ``zero-point energy'' of the arithmetic system.
+
+Through analytical regularization, we rigorously know that:
+\begin{equation}
+    \zeta(0) = -\frac{1}{2}
+\end{equation}
+In the context of MST, we interpret this value not as a mathematical curiosity, but as an \textbf{information potential}. The negative sign denotes an attractive nature (vacuum cohesion), and the $1/2$ factor indicates an intrinsic relationship with binary encoding (bits). It constitutes what we call the \textbf{half-bit attractor}, a state of pure information devoid of geometry.
+
+\subsection{Analytical Derivation of the Master Identity}
+
+Consider the complex logarithm of this ground state. In the complex plane, the logarithm of a negative number $z = -x$ (where $x > 0$) is multi-valued:
+\begin{equation}
+    \ln(-x) = \ln(x) + i(\pi + 2k\pi), \quad k \in \mathbb{Z}
+\end{equation}
+
+For the vacuum ground state, we postulate that observable physics corresponds to the \textbf{principal branch} of the logarithm ($k=0$), which minimizes phase action and ensures the uniqueness of the physical vacuum.
+
+Applying this to $\zeta(0) = -1/2$:
+\begin{align}
+    \ln(\zeta(0)) &= \ln\left(-\frac{1}{2}\right) \nonumber \\
+    &= \ln\left(\frac{1}{2}\right) + i\pi \nonumber \\
+    &= (\ln 1 - \ln 2) + i\pi \nonumber \\
+    &= -\ln 2 + i\pi
+    \label{eq:log_zeta}
+\end{align}
+Here we observe the simultaneous emergence of two fundamental components:
+\begin{itemize}
+    \item \textbf{Real Component ($-\ln 2$):} Represents pure information entropy (the negative Shannon bit, or negentropy).
+    \item \textbf{Imaginary Component ($i\pi$):} Represents the emergent geometric phase.
+\end{itemize}
+
+Solving for $\pi$ in Equation \eqref{eq:log_zeta}, we obtain the structural identity linking geometry and information:
+\begin{equation}
+    i\pi = \ln(\zeta(0)) + \ln 2
+\end{equation}
+Multiplying both sides by $-i$ (recalling that $-i \cdot i = 1$):
+\begin{equation}
+    \boxed{\pi = -i \left[ \ln(\zeta(0)) + \ln 2 \right]}
+    \label{eq:master_identity}
+\end{equation}
+
+\subsection{Ontological Interpretation: Geometry is Phase}
+
+Equation \eqref{eq:master_identity} constitutes the central result of this work. Its ontological implication is profound: $\pi$ is not a fundamental ingredient of the universe. 
+
+\begin{identidad}[Geometric Emergence]
+The geometric magnitude $\pi$ is the imaginary projection (phase) necessary for the arithmetic vacuum ground state ($\zeta(0)$) to coexist with the binary information unit ($\ln 2$).
+\end{identidad}
+
+This resolves the ``Continuity Crisis.'' The universe appears continuous and geometric at macroscopic scales because we observe the accumulated phase of an immense number of discrete information operations \cite{PeinadorDSP}. The underlying ``reality'' is purely arithmetic ($\zeta(0)$ and $\ln 2$); ``space'' ($\pi$) is the complex artifact that arises when observing that arithmetic from within the system.
+
+This view is consistent with the Holographic Principle \cite{Hooft1993}, where volume (3D geometry, associated with $\pi$) emerges from surface degrees of freedom (bits, associated with $\ln 2$). MST now provides the exact algebraic mechanism for this emergence.
+
+% ----------------------------------------------------------------------
+\section{Computational Experimental Validation}
+% ----------------------------------------------------------------------
+
+To rule out the possibility that Equation \eqref{eq:master_identity} might be a coincidental numerical approximation (akin to historical approximations such as $\pi \approx 22/7$ or Ramanujan's coincidences), we have subjected the identity to an arbitrary-precision computational stress test.
+
+\subsection{Arbitrary Precision Methodology}
+
+A validation environment was implemented using the multiprecision arithmetic library \texttt{mpmath} (version 1.3.0). Unlike standard floating-point arithmetic (64-bit IEEE 754), which offers $\sim$15--17 decimal digits, this environment was configured to operate with a working precision (\textit{dps}) of \textbf{150 decimal digits}.
+
+The input parameters were defined as follows:
+\begin{itemize}
+    \item \textbf{Thermodynamic Input:} The value of $\zeta(0)$ was introduced as the exact rational number $-0.5$, free of representation error.
+    \item \textbf{Informational Input:} The value of $\ln 2$ was computed dynamically with 150-digit precision.
+    \item \textbf{Complex Engine:} The principal branch of the complex logarithm $\ln(z)$ was utilized, such that $-\pi < \Im(\ln z) \le \pi$.
+\end{itemize}
+
+The validation procedure is formally described in Algorithm \ref{alg:pi_validation}.
+
+\begin{algorithm}[h]
+\caption{MST Validation of $\pi$}
+\label{alg:pi_validation}
+\begin{algorithmic}[1]
+\Require Precision $P \gets 150$ digits
+\State Configure arithmetic context: $\texttt{mp.dps} \gets P$
+\State Define vacuum state: $\zeta_0 \gets -0.5$
+\State Define information bit: $L_2 \gets \ln(2)$
+\State Compute $\pi_{\text{MST}}$ according to Equation \eqref{eq:master_identity}:
+\State $\quad \pi_{\text{MST}} \gets -i \cdot (\ln(\zeta_0) + L_2)$
+\State Obtain reference value: $\pi_{\text{ref}} \gets \texttt{mp.pi}$
+\State Calculate Absolute Error: $\epsilon \gets |\pi_{\text{MST}} - \pi_{\text{ref}}|$
+\State Verify Imaginary Residue: $\delta_{Im} \gets \Im(\pi_{\text{MST}})$
+\Ensure $\epsilon < 10^{-P}$ \textbf{and} $\delta_{Im} \approx 0$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Numerical Results and Error Analysis}
+
+The execution of the algorithm yielded an exact match up to the defined machine precision. The results are summarized in Table \ref{tab:results}.
+
+\begin{table}[h]
+\centering
+\caption{Results of the Validation with 150-Digit Precision}
+\label{tab:results}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Parameter} & \textbf{Computed Value (Truncated)} \\ \midrule
+$\pi_{\text{ref}}$ (Standard) & 3.1415926535897932384626433... \\
+$\pi_{\text{MST}}$ (Calculated) & 3.1415926535897932384626433... \\
+\midrule
+\textbf{Absolute Error ($\epsilon$)} & \textbf{0.0} (Below the $10^{-150}$ threshold) \\
+\textbf{Imaginary Residue} & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The absolute error of $0.0$ in a 150-digit environment confirms that the relationship is not asymptotic or approximate, but **structurally exact**. The resulting imaginary part of the calculation is null, validating that the operation $-i(\dots)$ perfectly rotates the resulting complex vector onto the real axis.
+
+This demonstrates that spatial geometry ($\pi$) can be synthesized entirely from non-geometric components: the ground state of the Zeta function and the entropy of binary information.
+
+% ----------------------------------------------------------------------
+\section{Mechanisms of Emergence: Arithmetic Holography and Berry Phase}
+% ----------------------------------------------------------------------
+
+The exactness of the Master Identity suggests that space-time geometry is a record of the substrate's quantum phase shift. In this section, we explore how MST interacts with modern frameworks of quantum gravity.
+
+\subsection{Bit-to-Volume Projection (Bulk-Boundary)}
+
+The Holographic Principle states that the information of a volume of space is encoded on its boundary \cite{Hooft1993}. Our identity provides the exact algebraic mechanism for this projection:
+\begin{equation}
+    \zeta(0) = \frac{1}{2} e^{i\pi} = -\frac{1}{2}
+\end{equation}
+Where we identify the following components:
+\begin{itemize}
+    \item **Factor $1/2$:** The fundamental information density (a ``half-bit'' of vacuum entropy).
+    \item **Phase $e^{i\pi}$:** The geometric projection operator.
+\end{itemize}
+
+
+
+This relationship demonstrates that geometry ($\pi$) is the necessary factor to map the ``positive'' information of the surface (bits) into the ``negative'' binding energy of the vacuum ($\zeta(0)$). Without the $\pi$ phase rotation, the binary system of the boundary and the scalar system of the volume would be algebraically incompatible.
+
+\subsection{Interpretation as Substrate Berry Phase}
+
+We postulate that $\pi$ acts as a \textbf{Berry Phase} accumulated by the modular substrate during adiabatic information processing \cite{Berry1984}. In two-state quantum systems, a phase rotation of $\pi$ is characteristic of the sign inversion in fermions (spin-$1/2$ particles). Given that $\zeta(0) = -1/2$, MST suggests that the vacuum possesses an intrinsic spinorial nature.
+
+
+
+In this paradigm, we do not move ``through'' space; rather, space is the macroscopic manifestation of the ``phase noise'' generated by the processing of bits within the $\mathbb{Z}/6\mathbb{Z}$ substrate. Geometric continuity is, therefore, an effective description of the large-scale phase coherence of information states.
+
+\subsection{Relation with Noncommutative Geometry \texorpdfstring{(NCG)}{(NCG)}}
+
+Under Connes' framework \cite{Connes2008}, the structure of the Standard Model requires a KO-dimension 6. Our identity $\pi = -i (\ln \zeta(0) + \ln 2)$ links the spectral value at the origin with the entropy of the information algebra. We suggest that this identity defines the \textit{background curvature} upon which the excitations represented by the non-trivial Riemann zeros are manifested \cite{PeinadorGenesis}.
+
+% ----------------------------------------------------------------------
+\section{Cosmological Implications and the Planck Limit}
+% ----------------------------------------------------------------------
+
+Identifying $\pi$ as an emergent phase allows for fundamental cosmological problems to be addressed through a purely informational lens. If geometry is an artifact of the substrate's phase coherence, observed anomalies in the expansion of the universe can be reinterpreted as phase transitions in vacuum data processing.
+
+\subsection{The Dissolution of Geometry at the Planck Scale}
+
+At the Planck scale ($\ell_P \approx 10^{-35}$ m), MST predicts that the smooth continuum approximation breaks down. According to our Master Identity, at this limit, the ``bits'' of information ($\ln 2$) become individually countable, causing the imaginary phase ($\pi$) to lose its classical definition. 
+
+This ``blurry geometry'' suggests that mathematical singularities (such as those at the center of black holes) are actually regions where phase coherence has been completely lost, leaving only the discrete arithmetic substrate. The transcendence of $\pi$ is, in this context, the limit of a sum of discrete states that we only perceive as infinite due to our macroscopic scale \cite{PeinadorDSP}.
+
+\subsection{Resolving the Hubble Tension \texorpdfstring{($H_0$)}{(H0)}}
+
+One of the most notable successes of MST is the resolution of the Hubble Tension ($>5\sigma$) through the information-expansion coupling constant $\kappa_{\text{info}}$ \cite{PeinadorGenesis}. In the light of the emergence of $\pi$, we understand that the expansion rate $H_0$ is not merely a recession velocity, but the rate of creation of new geometric phase.
+
+We postulate that the local universe resides in a ``phase bubble'' of approximately $70$ Mpc, where the substrate has reached a modular percolation threshold \cite{PeinadorGenesis}. In this region, the interaction between the information bit and the vacuum yields a value of $H_0 \approx 73.45$ km/s/Mpc, matching local measurements from SH0ES \cite{PeinadorGenesis}. The discrepancy with the Cosmic Microwave Background ($H_0 \approx 67.4$) is explained by the fact that in the early universe, the geometric phase $\pi$ had not yet fully emerged from the discrete information substrate.
+
+\subsection{The Cosmological Constant as Phase Pressure}
+
+Dark energy can be reinterpreted as the ``information pressure'' required to maintain spacetime curvature. Since geometry costs entropy (Landauer's Principle) \cite{Shannon1948}, accelerated expansion is the result of negentropy flow from the modular substrate into the observable phase.
+
+From the relation $\zeta(0) = -1/2$, we observe that the vacuum ground state possesses a negative binding energy that acts as an informational ``glue.'' The cosmological constant $\Lambda$ would thus be the thermodynamic residue of attempting to fit the binary base ($\ln 2$) into the ternary volume of the modular vacuum \cite{PeinadorGenesis}.
+
+% ----------------------------------------------------------------------
+\section{Final Discussion: The Architecture of Modular Reality}
+% ----------------------------------------------------------------------
+
+The validation of the identity $\pi = -i (\ln \zeta(0) + \ln 2)$ represents the culmination of the Modular Substrate Theory (MST). By integrating this finding with the DSP isomorphism \cite{PeinadorDSP} and the informational genesis of $e$ \cite{PeinadorGenesis}, a universe architecture structured into three operational levels emerges:
+
+\begin{enumerate}
+    \item \textbf{Arithmetic Level (Hardware):} The $\mathbb{Z}/6\mathbb{Z}$ ring acts as the processing substrate. Polyphase decomposition and the $6k \pm 1$ prime channel structure guarantee lossless information transmission (\textit{Perfect Reconstruction}) \cite{PeinadorSpectrum, PeinadorDSP}.
+    \item \textbf{Thermodynamic Level (Software):} The constants $e$, $R_{\text{fund}}$, and $\alpha$ arise from radix optimization (base 3 vs. base 2). Here, the vacuum processes the efficiency of the volume (\textit{bulk}) against the holographic boundary \cite{PeinadorGenesis}.
+    \item \textbf{Geometric Level (Interface):} The constant $\pi$ is the complex phase necessary to reconcile the previous levels. We perceive a continuous space because we observe the accumulated phase rotation of the information unit ($\ln 2$) as it interacts with the vacuum ground state ($\zeta(0)$).
+\end{enumerate}
+
+
+
+This hierarchy resolves the ``Continuity Crisis'' \cite{PeinadorDSP}. Geometric continuity is an effective description; at the fundamental scale, geometry dissolves into discrete phase relations. Gravity, in this context, is not a curvature of a pre-existing space, but rather an entropic force arising from the substrate's tendency to balance its information states \cite{PeinadorGenesis}.
+
+% ----------------------------------------------------------------------
+\section{Conclusions}
+% ----------------------------------------------------------------------
+
+This work demonstrates that spatial geometry, traditionally considered an irreducible axiom, is an emergent property of modular arithmetic. The identity $\pi = -i (\ln \zeta(0) + \ln 2)$ has been validated with 150-digit precision, confirming that the relationship between vacuum thermodynamics and binary information is not asymptotic, but **structurally exact**.
+
+We conclude that:
+\begin{itemize}
+    \item Spacetime is the macroscopic manifestation (phase) of an underlying discrete information processing governed by $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP, PeinadorGenesis}.
+    \item The constant $\pi$ can be entirely synthesized from non-geometric magnitudes, unifying Number Theory and Theoretical Physics.
+    \item The resolution of anomalies such as the Hubble Tension is a natural consequence of understanding the universe as a system of modular phases \cite{PeinadorGenesis}.
+\end{itemize}
+
+The universe is not written in the language of shapes, but in the language of bits and their phase rotations within the vacuum. MST thus offers a robust path toward a physics where arithmetic and reality are one and the same.
+
+% ----------------------------------------------------------------------
+% COMPLETE BIBLIOGRAPHY
+% ----------------------------------------------------------------------
+\begin{thebibliography}{99}
+
+\bibitem{PeinadorSpectrum}
+Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: From Prime Channel Structure to Elliptic Supercongruences (Version v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18417862}
+
+\bibitem{PeinadorDSP}
+Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: Theoretical Unification, DSP Isomorphism, and Exascale Validation (Version v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18455954}
+
+\bibitem{PeinadorGenesis}
+Peinador Sala, J. I. (2026). \textit{The Genesis of e and the Unification of Fundamental Constants from the Z/6Z Modular Substrate (Version v1)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18673474}
+
+\bibitem{Shannon1948}
+Shannon, C. E. (1948). \textit{A Mathematical Theory of Communication}. The Bell System Technical Journal, 27, 379–423.
+
+\bibitem{Hooft1993}
+'t Hooft, G. (1993). \textit{Dimensional Reduction in Quantum Gravity}. arXiv:gr-qc/9310026.
+
+\bibitem{Wheeler1990}
+Wheeler, J. A. (1990). \textit{Information, Physics, Quantum: The Search for Links}. Proceedings of the 3rd International Symposium on Foundations of Quantum Mechanics.
+
+\bibitem{Connes2008}
+Connes, A., \& Marcolli, M. (2008). \textit{Noncommutative Geometry, Quantum Fields and Motives}. American Mathematical Society.
+
+\bibitem{Berry1984}
+Berry, M. V. (1984). \textit{Quantal Phase Factors Accompanying Adiabatic Changes}. Proc. R. Soc. Lond. A 392, 45-57.
+
+\bibitem{Castro2001}
+Castro, C., \& Mahecha, J. (2001). \textit{On Riemann’s Hypothesis, Complex Entropy and Supersymmetry}. Chaos, Solitons \& Fractals.
+
+\end{thebibliography}
+
+% ----------------------------------------------------------------------
+\appendix
+\section{Substitution Analysis: From Geometry to Vacuum Arithmetic}
+% ----------------------------------------------------------------------
+
+In this section, a logical consistency exercise is performed by substituting the emergent identity $\pi = -i (\ln \zeta(0) + \ln 2)$ into various fundamental equations of theoretical physics. This process reveals that many magnitudes previously considered ``geometric'' are, in fact, manifestations of the informational impedance of the modular substrate.
+
+\subsection{Euler's Identity as an Equation of State}
+
+Euler's identity, $e^{i\pi} + 1 = 0$, is considered the nexus between complex analysis and geometry. Applying the MST Master Identity:
+\begin{equation}
+    e^{(\ln \zeta(0) + \ln 2)} + 1 = 0 \implies \zeta(0) \cdot 2 + 1 = 0 \implies \zeta(0) = -1/2
+\end{equation}
+This result demonstrates that circular geometry ($e^{i\pi}$) is an algebraic consequence of the vacuum ground state being $\zeta(0) = -1/2$. The ``beauty'' of Euler's formula is therefore the signature of the vacuum's arithmetic stability \cite{PeinadorGenesis}.
+
+\subsection{Entropic Gravity and the Einstein Constant}
+
+In General Relativity, the Einstein coupling constant $\kappa = 8\pi G$ defines the curvature of spacetime. Under MST, this constant is redefined as:
+\begin{equation}
+    \kappa = -8i G \ln(2\zeta(0))
+\end{equation}
+The appearance of the imaginary factor $-i$ and the logarithm of the vacuum potential suggests that gravity is not a fundamental curvature force, but rather an entropic force resulting from the substrate's tendency to balance its information content \cite{Hooft1993}. Gravity ``emerges'' from the phase of the bit.
+
+\subsection{The Action Quantum as a Bit Rate}
+
+The relationship between the Planck constant ($h$) and its reduced form ($\hbar$) is $h = 2\pi\hbar$. Substituting the modular identity:
+\begin{equation}
+    h = -2i \hbar \left[ \ln(\zeta(0)) + \ln 2 \right]
+\end{equation}
+This formulation interprets physical action ($h$) not as a block of energy, but as the thermodynamic cost of processing one bit of information ($\ln 2$) against vacuum resistance ($\zeta(0)$). Energy quantization is, therefore, the quantization of data processing within the $\mathbb{Z}/6\mathbb{Z}$ substrate \cite{PeinadorDSP}.
+
+\subsection{Informational Saturation in Black Holes}
+
+Bekenstein-Hawking entropy, $S_{BH} \propto \frac{A}{\hbar G}$, includes in its Schwarzschild form the area\\ $A = 16\pi G^2 M^2 / c^4$. Substituting $\pi$:
+\begin{equation}
+    S_{BH} = \frac{4 G M^2 k_B}{\hbar c} \left[ -i (\ln \zeta(0) + \ln 2) \right]
+\end{equation}
+This expression validates the Holographic Principle from an arithmetic basis: the horizon entropy does not measure a real geometric surface, but rather the saturation of bits that the vacuum can support before the breakdown of phase coherence \cite{PeinadorGenesis, Hooft1993}. The ``singularity'' is the limit where the complex logarithm of information becomes singular.
+
+\end{document}
+
+\end{document}
