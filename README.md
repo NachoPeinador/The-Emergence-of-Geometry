@@ -32,7 +32,7 @@ We show that the "circularity" of space is the imaginary manifestation required 
 
 The core of this work is the structural identity linking the vacuum ground state, binary information, and the geometric constant:
 
-## $$\boxed{\pi = -i \left[ \ln \zeta(0) + \ln 2 \right]}$$
+## $$\center\boxed{\pi = -i \left[ \ln \zeta(0) + \ln 2 \right]}$$
 
 ### Analytical Proof (Principal Branch):
 1. **Ground State:** $\zeta(0) = -1/2$ (The Half-Bit Attractor).
