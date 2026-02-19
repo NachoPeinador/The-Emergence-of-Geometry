@@ -9,7 +9,7 @@
 [![Hubble Tension](https://img.shields.io/badge/H0--Resolved-73.45-success)](#)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18609093.svg)](https://doi.org/10.5281/zenodo.18611630)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18703611.svg)](https://doi.org/10.5281/zenodo.18703611)
 [![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/The_Emergence_of_Geometry.pdf)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/The_Emergence_of_Geometry.ipynb)
 
 > **"Geometry is the Interface; Arithmetic is the Source Code. $\pi$ is the phase residue of the Vacuum's computation."**
@@ -158,7 +158,7 @@ If this work contributes to your research, please cite it as follows:
   author={Peinador Sala, José Ignacio},
   journal={Zenodo},
   year={2026},
-  doi={PENDING_DOI},
+  doi={https://doi.org/10.5281/zenodo.18703611},
   url={[https://github.com/NachoPeinador/The-Emergence-of-Geometry](https://github.com/NachoPeinador/The-Emergence-of-Geometry)}
 }
 
