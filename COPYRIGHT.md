@@ -36,13 +36,11 @@ If you use the Arithmetic Vacuum Alpha theory, the provided code, or the derived
 
 **BibTeX:**
 ```bibtex
-@misc{peinador2026fine,
-  author       = {Peinador Sala, José Ignacio},
-  title        = {The Fine Structure of the Arithmetic Vacuum: Exact Derivation of $\alpha^{-1}$ via Modular Renormalization},
-  year         = {2026},
-  publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.18611630},
-  url          = {[https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha](https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha)},
-  note         = {Preprint}
+@misc{peinador2026emergence,
+  title={The Emergence of Geometry: Pi as the Imaginary Phase of Modular Information},
+  author={Peinador Sala, José Ignacio},
+  journal={Zenodo},
+  year={2026},
+  doi={https://doi.org/10.5281/zenodo.18703611},
+  url={[https://github.com/NachoPeinador/The-Emergence-of-Geometry](https://github.com/NachoPeinador/The-Emergence-of-Geometry)}
 }
