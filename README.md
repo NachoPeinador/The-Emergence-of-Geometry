@@ -121,7 +121,7 @@ Run the script: python Scripts/master_audit.py
 
 | Phase | Research Paper & DOI Badge |
 | :--- | :--- |
-| **The Emergence of Geometry** | [![DOI:10.5281/zenodo.xxxxxxxx](https://img.shields.io/badge/Paper-The Emergence of Geometry-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.xxxxxxxx) |
+| **The Emergence of Geometry** | [![DOI:10.5281/zenodo.18703611](https://img.shields.io/badge/Paper-The Emergence of Geometry-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18703611) |
 | **Genesis $e$** | [![DOI:10.5281/zenodo.18673474](https://img.shields.io/badge/Paper-The_Genesis_of_e-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18673474) |
 | **Fine-Structure** | [![DOI:10.5281/zenodo.18611630](https://img.shields.io/badge/Paper-Fine_Structure_of_Vacuum-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18611630) |
 | **Core Theory** | [![DOI:10.5281/zenodo.18609093](https://img.shields.io/badge/Theory-Modular_Substrate-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18609093) |
