@@ -176,4 +176,4 @@ If this work contributes to your research, please cite it as follows:
 
 *Parsimony is the law; Arithmetic is the judge.*
 
-```
+---
