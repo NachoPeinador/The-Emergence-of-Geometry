@@ -35,7 +35,7 @@ The core of this work is the structural identity linking the vacuum ground state
 <h2 align="center">Identidad Fundamental (TSM)</h2>
 
 <p align="center">
-  $$\boxed{\pi = -i \left[ \ln \zeta(0) + \ln 2 \right]}$$
+  ## $$\boxed{\pi = -i \left[ \ln \zeta(0) + \ln 2 \right]}$$
 </p>
 
 ### Analytical Proof (Principal Branch):
