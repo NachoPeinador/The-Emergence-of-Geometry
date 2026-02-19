@@ -168,7 +168,7 @@ If this work contributes to your research, please cite it as follows:
 
 ## ✉️ Contact
 
-**José Ignacio Peinador Sala** [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)[![Email](https://img.shields.io/badge/Email-joseignacio.peinador%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joseignacio.peinador@gmail.com)[![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)[![Email](https://img.shields.io/badge/Email-joseignacio.peinador%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joseignacio.peinador@gmail.com)[![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 
 ---
 
