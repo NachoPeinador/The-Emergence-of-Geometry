@@ -115,6 +115,19 @@ Run the script: python Scripts/master_audit.py
 
 ---
 
+## 🧬 MST Ecosystem
+
+| Phase | Research Paper & DOI Badge |
+| :--- | :--- |
+| **Genesis** | [![DOI:10.5281/zenodo.18673474](https://img.shields.io/badge/Paper-The_Genesis_of_e-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18673474) |
+| **Fine-Structure** | [![DOI:10.5281/zenodo.18611630](https://img.shields.io/badge/Paper-Fine_Structure_of_Vacuum-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18611630) |
+| **Core Theory** | [![DOI:10.5281/zenodo.18609093](https://img.shields.io/badge/Theory-Modular_Substrate-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18609093) |
+| **Duality** | [![DOI:10.5281/zenodo.18485154](https://img.shields.io/badge/Paper-Spectral--Arithmetic_Duality-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18485154) |
+| **$\pi$ Unification** | [![DOI:10.5281/zenodo.18455954](https://img.shields.io/badge/Paper-%CF%80_Unification-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18455954) |
+| **$\pi$ Spectrum** | [![DOI:10.5281/zenodo.18417862](https://img.shields.io/badge/Paper-The_Modular_Spectrum_of_%CF%80-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18417862) |
+
+---
+
 ## 📂 Repository Structure
 
 ```
