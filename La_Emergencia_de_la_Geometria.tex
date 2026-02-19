@@ -127,7 +127,7 @@ Esto resuelve la ``Crisis del Continuo''. El universo aparece continuo y geomét
 Esta visión es consistente con el Principio Holográfico \cite{Hooft1993}, donde el volumen (geometría 3D, asociado a $\pi$) emerge de grados de libertad de superficie (bits, asociados a $\ln 2$). La TSM proporciona ahora el mecanismo algebraico exacto de esta emergencia.
 
 % ----------------------------------------------------------------------
-\section{Validación Experimental Computacional}
+\section{Validación Experimental Computacional}\label{sec:validacion}
 % ----------------------------------------------------------------------
 
 Para descartar la posibilidad de que la Ecuación \eqref{eq:master_identity} sea una aproximación numérica coincidente (similar a aproximaciones históricas como $\pi \approx 22/7$ o coincidencias de Ramanujan), hemos sometido la identidad a una prueba de estrés computacional de precisión arbitraria.
@@ -305,6 +305,46 @@ Castro, C., \& Mahecha, J. (2001). \textit{On Riemann’s Hypothesis, Complex En
 
 \end{thebibliography}
 
+
+% ----------------------------------------------------------------------
+\appendix
+\section{Análisis de Sustitución: De la Geometría a la Aritmética del Vacío}
+% ----------------------------------------------------------------------
+
+En esta sección, se realiza un ejercicio de consistencia lógica sustituyendo la identidad emergente $\pi = -i (\ln \zeta(0) + \ln 2)$ en diversas ecuaciones fundamentales de la física teórica. Este proceso revela que muchas magnitudes consideradas ``geométricas'' son, en realidad, manifestaciones de la impedancia informacional del sustrato modular.
+
+\subsection{La Identidad de Euler como Ecuación de Estado}
+
+La identidad de Euler, $e^{i\pi} + 1 = 0$, es considerada el nexo entre el análisis complejo y la geometría. Al aplicar la Identidad Maestra de la TSM:
+\begin{equation}
+    e^{(\ln \zeta(0) + \ln 2)} + 1 = 0 \implies \zeta(0) \cdot 2 + 1 = 0 \implies \zeta(0) = -1/2
+\end{equation}
+Este resultado demuestra que la geometría circular ($e^{i\pi}$) es una consecuencia algebraica de que el estado fundamental del vacío sea $\zeta(0) = -1/2$. La ``belleza'' de la fórmula de Euler es, por tanto, la firma de la estabilidad aritmética del vacío \cite{PeinadorGenesis}.
+
+\subsection{Gravedad Entrópica y la Constante de Einstein}
+
+En Relatividad General, la constante de acoplamiento de Einstein $\kappa = 8\pi G$ define la curvatura del espacio-tiempo. Bajo la TSM, esta constante se redefine como:
+\begin{equation}
+    \kappa = -8i G \ln(2\zeta(0))
+\end{equation}
+La aparición del factor imaginario $-i$ y el logaritmo del potencial del vacío sugiere que la gravedad no es una fuerza fundamental de curvatura, sino una fuerza entrópica resultante de la tendencia del sustrato a equilibrar su contenido de información \cite{Hooft1993}. La gravedad ``emerge'' de la fase del bit.
+
+\subsection{El Cuanto de Acción como Tasa de Bits}
+
+La relación entre la constante de Planck ($h$) y su forma reducida ($\hbar$) es $h = 2\pi\hbar$. Sustituyendo la identidad modular:
+\begin{equation}
+    h = -2i \hbar \left[ \ln(\zeta(0)) + \ln 2 \right]
+\end{equation}
+Esta formulación interpreta la acción física ($h$) no como un bloque de energía, sino como el costo termodinámico de procesar un bit de información ($\ln 2$) contra la resistencia del vacío ($\zeta(0)$). La cuantización de la energía es, por tanto, la cuantización del procesamiento de datos en el sustrato $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP}.
+
+\subsection{Saturación Informacional en Agujeros Negros}
+
+La entropía de Bekenstein-Hawking, $S_{BH} \propto \frac{A}{\hbar G}$, incluye en su forma de Schwarzschild el área $A = 16\pi G^2 M^2 / c^4$. Al sustituir $\pi$:
+\begin{equation}
+    S_{BH} = \frac{4 G M^2 k_B}{\hbar c} \left[ -i (\ln \zeta(0) + \ln 2) \right]
+\end{equation}
+Esta expresión valida el Principio Holográfico desde una base aritmética: la entropía del horizonte no mide una superficie geométrica real, sino la saturación de bits que el vacío puede soportar antes de la ruptura de la coherencia de fase \cite{PeinadorGenesis, Hooft1993}. La ``singularidad'' es el límite donde el logaritmo complejo de la información se vuelve singular.
+
 % ==============================================================================
 % AGRADECIMIENTOS
 % ==============================================================================
@@ -358,12 +398,14 @@ En concordancia con los principios de ciencia abierta y reproducibilidad, todos 
 \begin{itemize}
     \item \textbf{Código fuente:} Los scripts completos de validación numérica con precisión de 150 dígitos (implementados en Python utilizando la biblioteca \texttt{mpmath}) están disponibles en el siguiente repositorio:
     \begin{center}
-    \url{https://github.com/NachoPeinador/The-Genesis-of-e}
+    \url{https://github.com/NachoPeinador/The-Emergence-of-Geometry}
     \end{center}
 
     \item \textbf{Entornos reproducibles:} Se proporcionan notebooks interactivos de Google Colab que permiten ejecutar y verificar de forma inmediata la identidad fundamental $\pi = -i (\ln \zeta(0) + \ln 2)$ y todas las comprobaciones auxiliares.
 
     \item \textbf{Datos derivados:} Las tablas de resultados numéricos y los logs de las ejecuciones de alta precisión se incluyen como material complementario en el repositorio.
+    
+    \item \textbf{Licencias:} El contenido intelectual de este manuscrito (texto, ecuaciones y figuras) se distribuye bajo una licencia \textbf{Creative Commons Atribución 4.0 Internacional (CC BY 4.0)}. El código fuente de validación asociado se proporciona bajo la \textbf{Licencia MIT}.
 \end{itemize}
 
 Cualquier investigador con conexión a internet puede, por tanto, replicar íntegramente los resultados de la Sección \ref{sec:validacion} en cuestión de minutos.
@@ -409,52 +451,12 @@ Valladolid, España \\
 \textit{sin vuestro amor incondicional, no habría sobrevivido a esta aventura.}
 
 \vspace{0.5cm}
-\textit{Solo soy una persona humilde que con curiosidad, perseverancia,} \
-\textit{libertad para preguntar, y cierta insolencia,} \
-\textit{se atrevió a caminar el camino de la ciencia.}
+\textit{Con la curiosidad del niño, la insolencia del adolescente,} \
+\textit{la pasión del enamorado, y la humildad del anciano,} \
+\textit{como un pirata, libre por mares ajenos.}
 
 \vspace{0.5cm}
 \textit{Cualquier otra persona podría haberlo hecho.}
 \end{center}
 
-% ----------------------------------------------------------------------
-\appendix
-\section{Análisis de Sustitución: De la Geometría a la Aritmética del Vacío}
-% ----------------------------------------------------------------------
-
-En esta sección, se realiza un ejercicio de consistencia lógica sustituyendo la identidad emergente $\pi = -i (\ln \zeta(0) + \ln 2)$ en diversas ecuaciones fundamentales de la física teórica. Este proceso revela que muchas magnitudes consideradas ``geométricas'' son, en realidad, manifestaciones de la impedancia informacional del sustrato modular.
-
-\subsection{La Identidad de Euler como Ecuación de Estado}
-
-La identidad de Euler, $e^{i\pi} + 1 = 0$, es considerada el nexo entre el análisis complejo y la geometría. Al aplicar la Identidad Maestra de la TSM:
-\begin{equation}
-    e^{(\ln \zeta(0) + \ln 2)} + 1 = 0 \implies \zeta(0) \cdot 2 + 1 = 0 \implies \zeta(0) = -1/2
-\end{equation}
-Este resultado demuestra que la geometría circular ($e^{i\pi}$) es una consecuencia algebraica de que el estado fundamental del vacío sea $\zeta(0) = -1/2$. La ``belleza'' de la fórmula de Euler es, por tanto, la firma de la estabilidad aritmética del vacío \cite{PeinadorGenesis}.
-
-\subsection{Gravedad Entrópica y la Constante de Einstein}
-
-En Relatividad General, la constante de acoplamiento de Einstein $\kappa = 8\pi G$ define la curvatura del espacio-tiempo. Bajo la TSM, esta constante se redefine como:
-\begin{equation}
-    \kappa = -8i G \ln(2\zeta(0))
-\end{equation}
-La aparición del factor imaginario $-i$ y el logaritmo del potencial del vacío sugiere que la gravedad no es una fuerza fundamental de curvatura, sino una fuerza entrópica resultante de la tendencia del sustrato a equilibrar su contenido de información \cite{Hooft1993}. La gravedad ``emerge'' de la fase del bit.
-
-\subsection{El Cuanto de Acción como Tasa de Bits}
-
-La relación entre la constante de Planck ($h$) y su forma reducida ($\hbar$) es $h = 2\pi\hbar$. Sustituyendo la identidad modular:
-\begin{equation}
-    h = -2i \hbar \left[ \ln(\zeta(0)) + \ln 2 \right]
-\end{equation}
-Esta formulación interpreta la acción física ($h$) no como un bloque de energía, sino como el costo termodinámico de procesar un bit de información ($\ln 2$) contra la resistencia del vacío ($\zeta(0)$). La cuantización de la energía es, por tanto, la cuantización del procesamiento de datos en el sustrato $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP}.
-
-\subsection{Saturación Informacional en Agujeros Negros}
-
-La entropía de Bekenstein-Hawking, $S_{BH} \propto \frac{A}{\hbar G}$, incluye en su forma de Schwarzschild el área $A = 16\pi G^2 M^2 / c^4$. Al sustituir $\pi$:
-\begin{equation}
-    S_{BH} = \frac{4 G M^2 k_B}{\hbar c} \left[ -i (\ln \zeta(0) + \ln 2) \right]
-\end{equation}
-Esta expresión valida el Principio Holográfico desde una base aritmética: la entropía del horizonte no mide una superficie geométrica real, sino la saturación de bits que el vacío puede soportar antes de la ruptura de la coherencia de fase \cite{PeinadorGenesis, Hooft1993}. La ``singularidad'' es el límite donde el logaritmo complejo de la información se vuelve singular.
-
 \end{document}
-
