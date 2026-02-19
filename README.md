@@ -7,6 +7,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) 
 [![Hubble Tension](https://img.shields.io/badge/H0--Resolved-73.45-success)](#)
 [![DOI](https://img.shields.io/badge/DOI-Pending-lightgrey)](#)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > **"Geometry is the Interface; Arithmetic is the Source Code. $\pi$ is the phase residue of the Vacuum's computation."**
 
