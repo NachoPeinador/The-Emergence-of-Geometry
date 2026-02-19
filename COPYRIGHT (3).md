@@ -1,7 +1,9 @@
 # Copyright and Licensing Information
 
 **Project:** The Emergence of Geometry: π as the Imaginary Phase of Modular Information. Unification of Vacuum Thermodynamics ζ (0) and Binary Arithmetic in Z/6Z
+
 **Author:** José Ignacio Peinador Sala
+
 **Repository:** [https://github.com/NachoPeinador/The-Emergence-of-Geometry](The-Emergence-of-Geometry)
 
 ---
