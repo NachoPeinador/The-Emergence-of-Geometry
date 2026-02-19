@@ -1,8 +1,8 @@
 \documentclass[12pt, a4paper]{article}
 
-% --- PAQUETES Y CONFIGURACIÓN ---
+% --- PACKAGES AND CONFIGURATION ---
 \usepackage[utf8]{inputenc}
-\usepackage[spanish, es-tabla]{babel} 
+\usepackage[english]{babel} 
 \usepackage{amsmath, amssymb, amsthm, amsfonts}
 \usepackage{mathptmx} 
 \usepackage[margin=2.5cm]{geometry}
@@ -15,7 +15,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 
-% Configuración de hipervínculos académicos
+% Academic hyperlink configuration
 \hypersetup{
     colorlinks=true,
     linkcolor=blue!70!black,
@@ -23,74 +23,72 @@
     urlcolor=teal
 }
 
-% --- METADATOS DEL DOCUMENTO ---
-\title{\textbf{La Emergencia de la Geometría: $\pi$ como Fase Imaginaria de la Información Modular}\\
-\large Unificación de la Termodinámica del Vacío $\zeta(0)$ y la Aritmética Binaria en $\mathbb{Z}/6\mathbb{Z}$}
+% --- DOCUMENT METADATA ---
+\title{\textbf{The Emergence of Geometry: $\pi$ as the Imaginary Phase of Modular Information}\\
+\large Unification of Vacuum Thermodynamics $\zeta(0)$ and Binary Arithmetic in $\mathbb{Z}/6\mathbb{Z}$}
 
 \author{
   \textbf{José Ignacio Peinador Sala} \\
-  \textit{Investigador Independiente} \\
+  \textit{Independent Researcher} \\
   \href{mailto:joseignacio.peinador@gmail.com}{joseignacio.peinador@gmail.com}
 }
 \date{\today}
 
-% --- DEFINICIÓN DE ENTORNOS ---
-\newtheorem{theorem}{Teorema}[section]
-\newtheorem{identity}[theorem]{Identidad Fundamental}
+% --- ENVIRONMENT DEFINITIONS ---
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{identity}[theorem]{Fundamental Identity}
 \theoremstyle{remark}
-\newtheorem*{remark}{Observación}
-\newtheorem{identidad}[theorem]{Identidad Fundamental}
+\newtheorem*{remark}{Remark}
+\newtheorem{identidad}[theorem]{Fundamental Identity}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-Este trabajo consolida el marco teórico del \textbf{Espectro Modular}, resolviendo la aparente discontinuidad entre la naturaleza discreta de los enteros $\mathbb{Z}$ y la geometría trascendental de $\pi$ \cite{PeinadorDSP}. Postulamos que la geometría no es un axioma fundamental, sino una propiedad emergente de la interacción entre la termodinámica del vacío y el procesamiento de información discreta \cite{PeinadorGenesis}. Derivamos analíticamente y validamos con una precisión de 150 dígitos la identidad exacta $\pi = -i (\ln \zeta(0) + \ln 2)$, donde $\zeta(0)$ representa el estado fundamental de la función Zeta de Riemann y $\ln 2$ el bit de información de Shannon \cite{PeinadorGenesis, Shannon1948}. Este resultado unifica los hallazgos previos sobre el isomorfismo polifase en DSP, la estructura de canales primos $6k \pm 1$ y la impedancia informacional $R_{\text{fund}}$, sugiriendo que el espacio-tiempo continuo es la proyección de fase compleja de un sustrato aritmético gobernado por el anillo $\mathbb{Z}/6\mathbb{Z}$. 
+This work consolidates the \textbf{Modular Spectrum} theoretical framework, resolving the apparent discontinuity between the discrete nature of the integers $\mathbb{Z}$ and the transcendental geometry of $\pi$ \cite{PeinadorDSP}. We postulate that geometry is not a fundamental axiom, but rather an emergent property arising from the interaction between vacuum thermodynamics and discrete information processing \cite{PeinadorGenesis}. We analytically derive and validate, with a precision of 150 digits, the exact identity $\pi = -i (\ln \zeta(0) + \ln 2)$, where $\zeta(0)$ represents the ground state of the Riemann Zeta function and $\ln 2$ denotes the Shannon information bit \cite{PeinadorGenesis, Shannon1948}. This result unifies previous findings on polyphase isomorphism in DSP, the $6k \pm 1$ prime channel structure, and the informational impedance $R_{\text{fund}}$, suggesting that the space-time continuum is the complex phase projection of an arithmetic substrate governed by the $\mathbb{Z}/6\mathbb{Z}$ ring.
 \end{abstract}
 
 % ----------------------------------------------------------------------
-\section{Introducción: La Geometría como Artefacto Espectral}
+\section{Introduction: Geometry as a Spectral Artifact}
 % ----------------------------------------------------------------------
 
-La constante $\pi$ ha servido históricamente como el \textit{benchmark} supremo de la potencia computacional y la estabilidad numérica \cite{PeinadorDSP}. Tradicionalmente, la física ha asumido el espacio continuo y su métrica asociada como un escenario \textit{a priori}. Sin embargo, esta visión se enfrenta a la denominada \textbf{Crisis del Continuo en la Computación Numérica}: la tensión irresuelta entre el dominio discreto $\mathbb{Z}$ de las operaciones de máquina y la periodicidad trascendental de las funciones armónicas \cite{PeinadorDSP}.
+The constant $\pi$ has historically served as the ultimate benchmark for computational power and numerical stability \cite{PeinadorDSP}. Traditionally, physics has assumed continuous space and its associated metric as an \textit{a priori} stage. However, this view faces the so-called \textbf{Continuity Crisis in Numerical Computing}: the unresolved tension between the discrete domain $\mathbb{Z}$ of machine operations and the transcendental periodicity of harmonic functions \cite{PeinadorDSP}.
 
-En trabajos previos, hemos establecido que esta tensión puede mitigarse observando la recta numérica a través de un \textbf{filtro modular} $m=6$ \cite{PeinadorDSP}. Este enfoque reveló un \textbf{isomorfismo polifase} entre las series hipergeométricas y el procesamiento digital de señales (DSP), permitiendo reinterpretar el cálculo de constantes como un problema de filtrado \textit{multirate} \cite{PeinadorDSP}. Asimismo, la descomposición en canales primos $6k \pm 1$ demostró que la información trascendente de alto nivel se canaliza a través de estructuras aritméticas específicas asociadas a los enteros de Eisenstein y la geometría del retículo hexagonal $A_2$ \cite{PeinadorDSP, PeinadorSpectrum}.
+In previous works, we established that this tension can be mitigated by observing the number line through a \textbf{modular filter} $m=6$ \cite{PeinadorDSP}. This approach revealed a \textbf{polyphase isomorphism} between hypergeometric series and digital signal processing (DSP), allowing for the reinterpretation of constant computation as a multirate filtering problem \cite{PeinadorDSP}. Furthermore, the decomposition into $6k \pm 1$ prime channels demonstrated that high-level transcendental information is channeled through specific arithmetic structures associated with Eisenstein integers and the $A_2$ hexagonal lattice geometry \cite{PeinadorDSP, PeinadorSpectrum}.
 
-La consolidación de este sustrato permitió derivar constantes fundamentales, como el número $e$ y la constante de estructura fina $\alpha$, a partir de la \textbf{impedancia informacional del vacío} $R_{\text{fund}} = (6\log_2 3)^{-1}$ \cite{PeinadorGenesis}. Sin embargo, el origen ontológico de $\pi$ permanecía como una pieza externa, un objetivo geométrico al que el sustrato se aproximaba pero que no generaba. 
+The consolidation of this substrate allowed for the derivation of fundamental constants, such as Euler's number $e$ and the fine-structure constant $\alpha$, from the \textbf{informational vacuum impedance} $R_{\text{fund}} = (6\log_2 3)^{-1}$ \cite{PeinadorGenesis}. However, the ontological origin of $\pi$ remained an external piece—a geometric target that the substrate approached but did not generate.
 
-Este artículo presenta la resolución definitiva de esta dicotomía. Proponemos que $\pi$ no es un primitivo geométrico, sino un \textbf{artefacto de fase}. Al evaluar la posición del ``atractor de estabilidad'' $r=3$ —punto de anclaje natural en el esquema modular cercano a $\pi$ radianes— bajo el lente de la función Zeta en el origen ($\zeta(0) = -1/2$), emerge una conexión exacta con la unidad de información binaria ($\ln 2$) \cite{PeinadorDSP, PeinadorGenesis}.
+This article presents the definitive resolution of this dichotomy. We propose that $\pi$ is not a geometric primitive, but a \textbf{phase artifact}. By evaluating the position of the ``stability attractor'' $r=3$—a natural anchoring point in the modular scheme near $\pi$ radians—under the lens of the Zeta function at the origin ($\zeta(0) = -1/2$), an exact connection with the binary information unit ($\ln 2$) emerges \cite{PeinadorDSP, PeinadorGenesis}.
 
-La identidad $\pi = -i (\ln \zeta(0) + \ln 2)$ demuestra que la ``circularidad'' del espacio es la manifestación imaginaria necesaria para reconciliar la aritmética binaria del horizonte holográfico con la naturaleza ternaria del volumen del vacío \cite{PeinadorGenesis, Hooft1993}. Con esto, cerramos el ciclo de la \textbf{Teoría del Sustrato Modular}: la geometría es el ``residuo de fase'' de una computación aritmética subyacente \cite{PeinadorGenesis}.
+The identity $\pi = -i (\ln \zeta(0) + \ln 2)$ demonstrates that the ``circularity'' of space is the imaginary manifestation necessary to reconcile the binary arithmetic of the holographic horizon with the ternary nature of the vacuum volume \cite{PeinadorGenesis, Hooft1993}. With this, we close the cycle of the \textbf{Modular Substrate Theory}: geometry is the ``phase residue'' of an underlying arithmetic computation \cite{PeinadorGenesis}.
 
 % ----------------------------------------------------------------------
-\section{Fundamentos Teóricos: De la Aritmética a la Geometría}
+\section{Theoretical Foundations: From Arithmetic to Geometry}
 % ----------------------------------------------------------------------
 
-La premisa central de la Teoría del Sustrato Modular (TSM) es que las constantes dimensionales no son primitivas, sino derivadas de la capacidad de procesamiento de información del vacío. En trabajos previos \cite{PeinadorGenesis}, establecimos que la base del crecimiento continuo, $e$, es el límite termodinámico de una estructura discreta ternaria modulada por una impedancia $R_{\text{fund}}$. Ahora, extendemos este razonamiento a la estructura del espacio mismo.
+The central premise of the Modular Substrate Theory (MST) is that dimensional constants are not primitive, but rather derived from the vacuum's information-processing capacity. In previous works \cite{PeinadorGenesis}, we established that the base of continuous growth, $e$, is the thermodynamic limit of a ternary discrete structure modulated by an impedance $R_{\text{fund}}$. Now, we extend this reasoning to the structure of space itself.
 
-\subsection{El Vacío como Función de Partición: El Rol de \texorpdfstring{$\zeta(0)$}{zeta(0)}}
+\subsection{The Vacuum as a Partition Function: The Role of \texorpdfstring{$\zeta(0)$}{zeta(0)}}
 
-En la teoría cuántica de campos y en la mecánica estadística, la función Zeta de Riemann, $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$, actúa como una función de partición que codifica el espectro de fluctuaciones del sistema. Mientras que los ceros no triviales en la línea crítica $\Re(s)=1/2$ dictan la distribución de los números primos (las ``excitaciones'' del sustrato) \cite{PeinadorSpectrum}, el valor en el origen, $s=0$, describe el estado fundamental o ``energía de punto cero'' del sistema aritmético.
+In quantum field theory and statistical mechanics, the Riemann Zeta function, $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$, acts as a partition function that encodes the system's fluctuation spectrum. While the non-trivial zeros on the critical line $\Re(s)=1/2$ dictate the distribution of prime numbers (the substrate's ``excitations'') \cite{PeinadorSpectrum}, the value at the origin, $s=0$, describes the ground state or ``zero-point energy'' of the arithmetic system.
 
-Mediante regularización analítica, sabemos rigurosamente que:
+Through analytical regularization, we rigorously know that:
 \begin{equation}
     \zeta(0) = -\frac{1}{2}
 \end{equation}
-En el contexto de la TSM, interpretamos este valor no como una curiosidad matemática, sino como un \textbf{potencial de información}. El signo negativo denota una naturaleza atractiva (cohesión del vacío), y el factor $1/2$ señala una relación intrínseca con la codificación binaria. Constituye lo que denominamos el \textbf{atractor de medio bit}, un estado de información pura desprovisto de geometría.
+In the context of MST, we interpret this value not as a mathematical curiosity, but as an \textbf{information potential}. The negative sign denotes an attractive nature (vacuum cohesion), and the $1/2$ factor indicates an intrinsic relationship with binary encoding (bits). It constitutes what we call the \textbf{half-bit attractor}, a state of pure information devoid of geometry.
 
-\subsection{Derivación Analítica de la Identidad Maestra}
+\subsection{Analytical Derivation of the Master Identity}
 
-Consideremos el logaritmo complejo de este estado fundamental. En el plano complejo, el logaritmo de un número negativo $z = -x$ (donde $x > 0$) es multivaluado:
+Consider the complex logarithm of this ground state. In the complex plane, the logarithm of a negative number $z = -x$ (where $x > 0$) is multi-valued:
 \begin{equation}
     \ln(-x) = \ln(x) + i(\pi + 2k\pi), \quad k \in \mathbb{Z}
 \end{equation}
 
+For the vacuum ground state, we postulate that observable physics corresponds to the \textbf{principal branch} of the logarithm ($k=0$), which minimizes phase action and ensures the uniqueness of the physical vacuum.
 
-
-Para el estado fundamental del vacío, postulamos que la física observable corresponde a la \textbf{rama principal} del logaritmo ($k=0$), que minimiza la acción de fase y garantiza la unicidad del vacío físico.
-
-Aplicando esto a $\zeta(0) = -1/2$:
+Applying this to $\zeta(0) = -1/2$:
 \begin{align}
     \ln(\zeta(0)) &= \ln\left(-\frac{1}{2}\right) \nonumber \\
     &= \ln\left(\frac{1}{2}\right) + i\pi \nonumber \\
@@ -98,180 +96,185 @@ Aplicando esto a $\zeta(0) = -1/2$:
     &= -\ln 2 + i\pi
     \label{eq:log_zeta}
 \end{align}
-Aquí observamos la emergencia simultánea de dos componentes fundamentales:
+Here we observe the simultaneous emergence of two fundamental components:
 \begin{itemize}
-    \item \textbf{Componente Real ($-\ln 2$):} Representa la entropía de información pura (el bit de Shannon negativo, o neguentropía).
-    \item \textbf{Componente Imaginaria ($i\pi$):} Representa la fase geométrica emergente.
+    \item \textbf{Real Component ($-\ln 2$):} Represents pure information entropy (the negative Shannon bit, or negentropy).
+    \item \textbf{Imaginary Component ($i\pi$):} Represents the emergent geometric phase.
 \end{itemize}
 
-Despejando $\pi$ de la Ecuación \eqref{eq:log_zeta}, obtenemos la identidad estructural que vincula geometría e información:
+Solving for $\pi$ in Equation \eqref{eq:log_zeta}, we obtain the structural identity linking geometry and information:
 \begin{equation}
     i\pi = \ln(\zeta(0)) + \ln 2
 \end{equation}
-Multiplicando ambos lados por $-i$ (recordando que $-i \cdot i = 1$):
+Multiplying both sides by $-i$ (recalling that $-i \cdot i = 1$):
 \begin{equation}
     \boxed{\pi = -i \left[ \ln(\zeta(0)) + \ln 2 \right]}
     \label{eq:master_identity}
 \end{equation}
 
-\subsection{Interpretación Ontológica: La Geometría es Fase}
+\subsection{Ontological Interpretation: Geometry is Phase}
 
-La Ecuación \eqref{eq:master_identity} constituye el resultado central de este trabajo. Su implicación ontológica es profunda: $\pi$ no es un ingrediente fundamental del universo. 
+Equation \eqref{eq:master_identity} constitutes the central result of this work. Its ontological implication is profound: $\pi$ is not a fundamental ingredient of the universe. 
 
-\begin{identidad}[Emergencia Geométrica]
-La magnitud geométrica $\pi$ es la proyección imaginaria (fase) necesaria para que el estado fundamental del vacío aritmético ($\zeta(0)$) coexista con la unidad de información binaria ($\ln 2$).
+\begin{identidad}[Geometric Emergence]
+The geometric magnitude $\pi$ is the imaginary projection (phase) necessary for the arithmetic vacuum ground state ($\zeta(0)$) to coexist with the binary information unit ($\ln 2$).
 \end{identidad}
 
-Esto resuelve la ``Crisis del Continuo''. El universo aparece continuo y geométrico a escalas macroscópicas porque observamos la fase acumulada de un inmenso número de operaciones discretas de información. La ``realidad'' subyacente es puramente aritmética ($\zeta(0)$ y $\ln 2$); el ``espacio'' ($\pi$) es el artefacto complejo que surge al observar esa aritmética desde dentro del sistema.
+This resolves the ``Continuity Crisis.'' The universe appears continuous and geometric at macroscopic scales because we observe the accumulated phase of an immense number of discrete information operations \cite{PeinadorDSP}. The underlying ``reality'' is purely arithmetic ($\zeta(0)$ and $\ln 2$); ``space'' ($\pi$) is the complex artifact that arises when observing that arithmetic from within the system.
 
-Esta visión es consistente con el Principio Holográfico \cite{Hooft1993}, donde el volumen (geometría 3D, asociado a $\pi$) emerge de grados de libertad de superficie (bits, asociados a $\ln 2$). La TSM proporciona ahora el mecanismo algebraico exacto de esta emergencia.
+This view is consistent with the Holographic Principle \cite{Hooft1993}, where volume (3D geometry, associated with $\pi$) emerges from surface degrees of freedom (bits, associated with $\ln 2$). MST now provides the exact algebraic mechanism for this emergence.
 
 % ----------------------------------------------------------------------
-\section{Validación Experimental Computacional}\label{sec:validacion}
+\section{Computational Experimental Validation}\label{sec:validacion}
 % ----------------------------------------------------------------------
 
-Para descartar la posibilidad de que la Ecuación \eqref{eq:master_identity} sea una aproximación numérica coincidente (similar a aproximaciones históricas como $\pi \approx 22/7$ o coincidencias de Ramanujan), hemos sometido la identidad a una prueba de estrés computacional de precisión arbitraria.
+To rule out the possibility that Equation \eqref{eq:master_identity} might be a coincidental numerical approximation (akin to historical approximations such as $\pi \approx 22/7$ or Ramanujan's coincidences), we have subjected the identity to an arbitrary-precision computational stress test.
 
-\subsection{Metodología de Precisión Arbitraria}
+\subsection{Arbitrary Precision Methodology}
 
-Se implementó un entorno de validación utilizando la biblioteca de aritmética de multiprecisión \texttt{mpmath} (versión 1.3.0). A diferencia de la aritmética de punto flotante estándar (IEEE 754 de 64 bits), que ofrece ~15-17 dígitos decimales, este entorno se configuró para operar con una precisión de trabajo (\textit{dps}) de \textbf{150 dígitos decimales}.
+A validation environment was implemented using the multiprecision arithmetic library \texttt{mpmath} (version 1.3.0). Unlike standard floating-point arithmetic (64-bit IEEE 754), which offers $\sim$15--17 decimal digits, this environment was configured to operate with a working precision (\textit{dps}) of \textbf{150 decimal digits}.
 
-Los parámetros de entrada se definieron de la siguiente manera:
+The input parameters were defined as follows:
 \begin{itemize}
-    \item \textbf{Entrada Termodinámica:} El valor de $\zeta(0)$ se introdujo como el número racional exacto $-0.5$, sin error de representación.
-    \item \textbf{Entrada Informacional:} El valor de $\ln 2$ se calculó dinámicamente con la precisión de 150 dígitos.
-    \item \textbf{Motor Complejo:} Se utilizó la rama principal del logaritmo complejo $\ln(z)$ tal que $-\pi < \Im(\ln z) \le \pi$.
+    \item \textbf{Thermodynamic Input:} The value of $\zeta(0)$ was introduced as the exact rational number $-0.5$, free of representation error.
+    \item \textbf{Informational Input:} The value of $\ln 2$ was computed dynamically with 150-digit precision.
+    \item \textbf{Complex Engine:} The principal branch of the complex logarithm $\ln(z)$ was utilized, such that $-\pi < \Im(\ln z) \le \pi$.
 \end{itemize}
 
-El algoritmo de validación se describe formalmente en el Algoritmo \ref{alg:pi_validation}.
+The validation procedure is formally described in Algorithm \ref{alg:pi_validation}.
 
 \begin{algorithm}[h]
-\caption{Validación de la Identidad TSM de $\pi$}
+\caption{MST Validation of $\pi$}
 \label{alg:pi_validation}
 \begin{algorithmic}[1]
-\Require Precisión $P \gets 150$ dígitos
-\State Configurar contexto aritmético: $\texttt{mp.dps} \gets P$
-\State Definir estado del vacío: $\zeta_0 \gets -0.5$
-\State Definir bit de información: $L_2 \gets \ln(2)$
-\State Calcular $\pi_{\text{TSM}}$ según Ecuación \eqref{eq:master_identity}:
-\State $\quad \pi_{\text{TSM}} \gets -i \cdot (\ln(\zeta_0) + L_2)$
-\State Obtener valor de referencia: $\pi_{\text{ref}} \gets \texttt{mp.pi}$
-\State Calcular Error Absoluto: $\epsilon \gets |\pi_{\text{TSM}} - \pi_{\text{ref}}|$
-\State Verificar Residuo Imaginario: $\delta_{Im} \gets \Im(\pi_{\text{TSM}})$
+\Require Precision $P \gets 150$ digits
+\State Configure arithmetic context: $\texttt{mp.dps} \gets P$
+\State Define vacuum state: $\zeta_0 \gets -0.5$
+\State Define information bit: $L_2 \gets \ln(2)$
+\State Compute $\pi_{\text{MST}}$ according to Equation \eqref{eq:master_identity}:
+\State $\quad \pi_{\text{MST}} \gets -i \cdot (\ln(\zeta_0) + L_2)$
+\State Obtain reference value: $\pi_{\text{ref}} \gets \texttt{mp.pi}$
+\State Calculate Absolute Error: $\epsilon \gets |\pi_{\text{MST}} - \pi_{\text{ref}}|$
+\State Verify Imaginary Residue: $\delta_{Im} \gets \Im(\pi_{\text{MST}})$
 \Ensure $\epsilon < 10^{-P}$ \textbf{and} $\delta_{Im} \approx 0$
 \end{algorithmic}
 \end{algorithm}
 
-\subsection{Resultados Numéricos y Análisis de Error}
+\subsection{Numerical Results and Error Analysis}
 
-La ejecución del algoritmo arrojó una coincidencia exacta hasta la precisión de la máquina definida. Los resultados se resumen en la Tabla \ref{tab:results}.
+The execution of the algorithm yielded an exact match up to the defined machine precision. The results are summarized in Table \ref{tab:results}.
 
 \begin{table}[h]
 \centering
-\caption{Resultados de la Validación con 150 Dígitos de Precisión}
+\caption{Results of the Validation with 150-Digit Precision}
 \label{tab:results}
 \begin{tabular}{@{}ll@{}}
 \toprule
-\textbf{Parámetro} & \textbf{Valor Computado (Truncado)} \\ \midrule
-$\pi_{\text{ref}}$ (Estándar) & 3.1415926535897932384626433... \\
-$\pi_{\text{TSM}}$ (Calculado) & 3.1415926535897932384626433... \\
+\textbf{Parameter} & \textbf{Computed Value (Truncated)} \\ \midrule
+$\pi_{\text{ref}}$ (Standard) & 3.1415926535897932384626433... \\
+$\pi_{\text{MST}}$ (Calculated) & 3.1415926535897932384626433... \\
 \midrule
-\textbf{Error Absoluto ($\epsilon$)} & \textbf{0.0} (Bajo el umbral de $10^{-150}$) \\
-\textbf{Residuo Imaginario} & 0.0 \\
+\textbf{Absolute Error ($\epsilon$)} & \textbf{0.0} (Below the $10^{-150}$ threshold) \\
+\textbf{Imaginary Residue} & 0.0 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-El error absoluto de $0.0$ en un entorno de 150 dígitos confirma que la relación no es asintótica ni aproximada, sino \textbf{estructuralmente exacta}. La parte imaginaria resultante del cálculo es nula, lo que valida que la operación $-i(\dots)$ rota perfectamente el vector complejo resultante sobre el eje real.
+The absolute error of $0.0$ in a 150-digit environment confirms that the relationship is not asymptotic or approximate, but **structurally exact**. The resulting imaginary part of the calculation is null, validating that the operation $-i(\dots)$ perfectly rotates the resulting complex vector onto the real axis.
 
-Esto demuestra que la geometría espacial ($\pi$) puede ser sintetizada íntegramente a partir de componentes no geométricos: el estado fundamental de la función Zeta y la entropía de la información binaria.
+This demonstrates that spatial geometry ($\pi$) can be synthesized entirely from non-geometric components: the ground state of the Zeta function and the entropy of binary information.
 
 % ----------------------------------------------------------------------
-\section{Mecanismos de Emergencia: Holografía Aritmética y Fase de Berry}
+\section{Mechanisms of Emergence: Arithmetic Holography and Berry Phase}
 % ----------------------------------------------------------------------
 
-La exactitud de la Identidad Maestra sugiere que la geometría del espacio-tiempo es un registro del desplazamiento de fase cuántica del sustrato. En esta sección, exploramos cómo la TSM interactúa con los marcos modernos de la gravedad cuántica.
+The exactness of the Master Identity suggests that space-time geometry is a record of the substrate's quantum phase shift. In this section, we explore how MST interacts with modern frameworks of quantum gravity.
 
-\subsection{Proyección del Bit al Volumen (Bulk-Boundary)}
+\subsection{Bit-to-Volume Projection (Bulk-Boundary)}
 
-El Principio Holográfico establece que la información de un volumen de espacio está codificada en su frontera \cite{Hooft1993}. Nuestra identidad proporciona el mecanismo algebraico exacto para esta proyección:
+The Holographic Principle states that the information of a volume of space is encoded on its boundary \cite{Hooft1993}. Our identity provides the exact algebraic mechanism for this projection:
 \begin{equation}
     \zeta(0) = \frac{1}{2} e^{i\pi} = -\frac{1}{2}
 \end{equation}
-Donde identificamos los siguientes componentes:
+Where we identify the following components:
 \begin{itemize}
-    \item \textbf{Factor $1/2$:} La densidad de información fundamental (un ``medio-bit'' de entropía del vacío).
-    \item \textbf{Fase $e^{i\pi}$:} El operador de proyección geométrica.
+    \item **Factor $1/2$:** The fundamental information density (a ``half-bit'' of vacuum entropy).
+    \item **Phase $e^{i\pi}$:** The geometric projection operator.
 \end{itemize}
 
-Esta relación demuestra que la geometría ($\pi$) es el factor necesario para mapear la información ``positiva'' de la superficie (bits) en la energía de enlace ``negativa'' del vacío ($\zeta(0)$). Sin la rotación de fase $\pi$, el sistema binario de la frontera y el sistema escalar del volumen serían algebraicamente incompatibles.
 
-\subsection{Interpretación como Fase de Berry del Sustrato}
 
-Postulamos que $\pi$ actúa como una \textbf{Fase de Berry} acumulada por el sustrato modular durante el procesamiento adiabático de información \cite{Berry1984}. En sistemas cuánticos de dos estados, una rotación de fase de $\pi$ es característica de la inversión de signo en fermiones (partículas de espín $1/2$). Dado que $\zeta(0) = -1/2$, la TSM sugiere que el vacío tiene una naturaleza espinorial intrínseca.
+This relationship demonstrates that geometry ($\pi$) is the necessary factor to map the ``positive'' information of the surface (bits) into the ``negative'' binding energy of the vacuum ($\zeta(0)$). Without the $\pi$ phase rotation, the binary system of the boundary and the scalar system of the volume would be algebraically incompatible.
 
-En este paradigma, no nos movemos ``a través'' del espacio; el espacio es la manifestación macroscópica del ``ruido de fase'' generado por el procesamiento de bits en el sustrato $\mathbb{Z}/6\mathbb{Z}$. La continuidad geométrica es, por tanto, una descripción efectiva de la coherencia de fase a gran escala de los estados de información.
+\subsection{Interpretation as Substrate Berry Phase}
 
-\subsection{Relación con la Geometría No Conmutativa \texorpdfstring{(NCG)}{(NCG)}}
+We postulate that $\pi$ acts as a \textbf{Berry Phase} accumulated by the modular substrate during adiabatic information processing \cite{Berry1984}. In two-state quantum systems, a phase rotation of $\pi$ is characteristic of the sign inversion in fermions (spin-$1/2$ particles). Given that $\zeta(0) = -1/2$, MST suggests that the vacuum possesses an intrinsic spinorial nature.
 
-Bajo el marco de Connes \cite{Connes2008}, la estructura del Modelo Estándar requiere una KO-dimensión 6. Nuestra identidad $\pi = -i (\ln \zeta(0) + \ln 2)$ vincula el valor espectral en el origen con la entropía del álgebra de información. Sugerimos que esta identidad define la ``curvatura de fondo'' o \textit{background curvature} sobre la cual se manifiestan las excitaciones representadas por los ceros no triviales de Riemann \cite{PeinadorGenesis}.
 
-% ----------------------------------------------------------------------
-\section{Implicaciones Cosmológicas y el Límite de Planck}
-% ----------------------------------------------------------------------
 
-La identificación de $\pi$ como una fase emergente permite abordar problemas fundamentales de la cosmología desde una óptica puramente informacional. Si la geometría es un artefacto de la coherencia de fase del sustrato, las anomalías observadas en la expansión del universo pueden reinterpretarse como transiciones de fase en el procesamiento de datos del vacío.
+In this paradigm, we do not move ``through'' space; rather, space is the macroscopic manifestation of the ``phase noise'' generated by the processing of bits within the $\mathbb{Z}/6\mathbb{Z}$ substrate. Geometric continuity is, therefore, an effective description of the large-scale phase coherence of information states.
 
-\subsection{La Disolución de la Geometría en la Escala de Planck}
+\subsection{Relation with Noncommutative Geometry \texorpdfstring{(NCG)}{(NCG)}}
 
-En la escala de Planck ($\ell_P \approx 10^{-35}$ m), la TSM predice que la aproximación del continuo suave se desmorona. Según nuestra Identidad Maestra, en este límite los ``bits'' de información ($\ln 2$) se vuelven contables individualmente, lo que provoca que la fase imaginaria ($\pi$) pierda su definición clásica. 
-
-Esta ``geometría borrosa'' sugiere que las singularidades matemáticas (como las del centro de los agujeros negros) son en realidad regiones donde la coherencia de fase se ha perdido por completo, dejando únicamente el sustrato aritmético discreto. La trascendencia de $\pi$ es, en este contexto, el límite de una suma de estados discretos que solo percibimos como infinita debido a nuestra escala macroscópica \cite{PeinadorDSP}.
-
-\subsection{Resolución de la Tensión de Hubble \texorpdfstring{($H_0$)}{(H0)}}
-
-Uno de los éxitos más notables de la TSM es la resolución de la Tensión de Hubble ($>5\sigma$) mediante la constante de acoplamiento información-expansión $\kappa_{\text{info}}$ \cite{PeinadorGenesis}. Bajo la nueva luz de la emergencia de $\pi$, entendemos que la tasa de expansión $H_0$ no es solo una velocidad de alejamiento, sino la tasa de creación de nueva fase geométrica.
-
-Postulamos que el universo local reside en una ``burbuja de fase'' de aproximadamente $70$ Mpc, donde el sustrato ha alcanzado un umbral de percolación modular \cite{PeinadorGenesis}. En esta región, la interacción entre el bit de información y el vacío produce un valor de $H_0 \approx 73.45$ km/s/Mpc, coincidente con las mediciones locales de SH0ES \cite{PeinadorGenesis}. La discrepancia con el fondo cósmico de microondas ($H_0 \approx 67.4$) se explica porque en el universo temprano, la fase geométrica $\pi$ aún no había emergido totalmente del sustrato de información discreto.
-
-\subsection{La Constante Cosmológica como Presión de Fase}
-
-La energía oscura puede ser reinterpretada como la ``presión de información'' necesaria para mantener la curvatura del espacio-tiempo. Si la geometría cuesta entropía (Principio de Landauer) \cite{Shannon1948}, la expansión acelerada es el resultado del flujo de neguentropía desde el sustrato modular hacia la fase observable.
-
-A partir de la relación $\zeta(0) = -1/2$, observamos que el estado fundamental del vacío posee una energía de enlace negativa que actúa como un ``pegamento'' informacional. La constante cosmológica $\Lambda$ sería, por tanto, el residuo termodinámico de intentar encajar la base binaria ($\ln 2$) en el volumen ternario del vacío modular \cite{PeinadorGenesis}.
+Under Connes' framework \cite{Connes2008}, the structure of the Standard Model requires a KO-dimension 6. Our identity $\pi = -i (\ln \zeta(0) + \ln 2)$ links the spectral value at the origin with the entropy of the information algebra. We suggest that this identity defines the \textit{background curvature} upon which the excitations represented by the non-trivial Riemann zeros are manifested \cite{PeinadorGenesis}.
 
 % ----------------------------------------------------------------------
-\section{Discusión Final: La Arquitectura de la Realidad Modular}
+\section{Cosmological Implications and the Planck Limit}
 % ----------------------------------------------------------------------
 
-La validación de la identidad $\pi = -i (\ln \zeta(0) + \ln 2)$ representa la culminación de la Teoría del Sustrato Modular (TSM). Al integrar este hallazgo con el isomorfismo DSP \cite{PeinadorDSP} y la génesis informacional de $e$ \cite{PeinadorGenesis}, emerge una arquitectura del universo estructurada en tres niveles operativos:
+Identifying $\pi$ as an emergent phase allows for fundamental cosmological problems to be addressed through a purely informational lens. If geometry is an artifact of the substrate's phase coherence, observed anomalies in the expansion of the universe can be reinterpreted as phase transitions in vacuum data processing.
+
+\subsection{The Dissolution of Geometry at the Planck Scale}
+
+At the Planck scale ($\ell_P \approx 10^{-35}$ m), MST predicts that the smooth continuum approximation breaks down. According to our Master Identity, at this limit, the ``bits'' of information ($\ln 2$) become individually countable, causing the imaginary phase ($\pi$) to lose its classical definition. 
+
+This ``blurry geometry'' suggests that mathematical singularities (such as those at the center of black holes) are actually regions where phase coherence has been completely lost, leaving only the discrete arithmetic substrate. The transcendence of $\pi$ is, in this context, the limit of a sum of discrete states that we only perceive as infinite due to our macroscopic scale \cite{PeinadorDSP}.
+
+\subsection{Resolving the Hubble Tension \texorpdfstring{($H_0$)}{(H0)}}
+
+One of the most notable successes of MST is the resolution of the Hubble Tension ($>5\sigma$) through the information-expansion coupling constant $\kappa_{\text{info}}$ \cite{PeinadorGenesis}. In the light of the emergence of $\pi$, we understand that the expansion rate $H_0$ is not merely a recession velocity, but the rate of creation of new geometric phase.
+
+We postulate that the local universe resides in a ``phase bubble'' of approximately $70$ Mpc, where the substrate has reached a modular percolation threshold \cite{PeinadorGenesis}. In this region, the interaction between the information bit and the vacuum yields a value of $H_0 \approx 73.45$ km/s/Mpc, matching local measurements from SH0ES \cite{PeinadorGenesis}. The discrepancy with the Cosmic Microwave Background ($H_0 \approx 67.4$) is explained by the fact that in the early universe, the geometric phase $\pi$ had not yet fully emerged from the discrete information substrate.
+
+\subsection{The Cosmological Constant as Phase Pressure}
+
+Dark energy can be reinterpreted as the ``information pressure'' required to maintain spacetime curvature. Since geometry costs entropy (Landauer's Principle) \cite{Shannon1948}, accelerated expansion is the result of negentropy flow from the modular substrate into the observable phase.
+
+From the relation $\zeta(0) = -1/2$, we observe that the vacuum ground state possesses a negative binding energy that acts as an informational ``glue.'' The cosmological constant $\Lambda$ would thus be the thermodynamic residue of attempting to fit the binary base ($\ln 2$) into the ternary volume of the modular vacuum \cite{PeinadorGenesis}.
+
+% ----------------------------------------------------------------------
+\section{Final Discussion: The Architecture of Modular Reality}
+% ----------------------------------------------------------------------
+
+The validation of the identity $\pi = -i (\ln \zeta(0) + \ln 2)$ represents the culmination of the Modular Substrate Theory (MST). By integrating this finding with the DSP isomorphism \cite{PeinadorDSP} and the informational genesis of $e$ \cite{PeinadorGenesis}, a universe architecture structured into three operational levels emerges:
 
 \begin{enumerate}
-    \item \textbf{Nivel Aritmético (Hardware):} El anillo $\mathbb{Z}/6\mathbb{Z}$ actúa como el sustrato de procesamiento. La descomposición polifase y la estructura de canales primos $6k \pm 1$ garantizan una transmisión de información sin pérdidas (\textit{Perfect Reconstruction}) \cite{PeinadorSpectrum, PeinadorDSP}.
-    \item \textbf{Nivel Termodinámico (Software):} Las constantes $e$, $R_{\text{fund}}$ y $\alpha$ surgen de la optimización del radix (base 3 frente a base 2). Aquí, el vacío procesa la eficiencia del volumen (\textit{bulk}) frente a la frontera holográfica \cite{PeinadorGenesis}.
-    \item \textbf{Nivel Geométrico (Interfaz):} La constante $\pi$ es la fase compleja necesaria para reconciliar los niveles anteriores. Percibimos un espacio continuo porque observamos la rotación de fase acumulada por la unidad de información ($\ln 2$) al interactuar con el estado fundamental del vacío ($\zeta(0)$).
+    \item \textbf{Arithmetic Level (Hardware):} The $\mathbb{Z}/6\mathbb{Z}$ ring acts as the processing substrate. Polyphase decomposition and the $6k \pm 1$ prime channel structure guarantee lossless information transmission (\textit{Perfect Reconstruction}) \cite{PeinadorSpectrum, PeinadorDSP}.
+    \item \textbf{Thermodynamic Level (Software):} The constants $e$, $R_{\text{fund}}$, and $\alpha$ arise from radix optimization (base 3 vs. base 2). Here, the vacuum processes the efficiency of the volume (\textit{bulk}) against the holographic boundary \cite{PeinadorGenesis}.
+    \item \textbf{Geometric Level (Interface):} The constant $\pi$ is the complex phase necessary to reconcile the previous levels. We perceive a continuous space because we observe the accumulated phase rotation of the information unit ($\ln 2$) as it interacts with the vacuum ground state ($\zeta(0)$).
 \end{enumerate}
 
 
 
-Esta jerarquía resuelve la ``Crisis del Continuo'' \cite{PeinadorDSP}. La continuidad geométrica es una descripción efectiva; en la escala fundamental, la geometría se disuelve en relaciones de fase discretas. La gravedad, en este contexto, no es una curvatura del espacio preexistente, sino una fuerza entrópica que surge de la tendencia del sustrato a equilibrar sus estados de información \cite{PeinadorGenesis}.
+This hierarchy resolves the ``Continuity Crisis'' \cite{PeinadorDSP}. Geometric continuity is an effective description; at the fundamental scale, geometry dissolves into discrete phase relations. Gravity, in this context, is not a curvature of a pre-existing space, but rather an entropic force arising from the substrate's tendency to balance its information states \cite{PeinadorGenesis}.
 
 % ----------------------------------------------------------------------
-\section{Conclusiones}
+\section{Conclusions}
 % ----------------------------------------------------------------------
 
-Este trabajo demuestra que la geometría espacial, tradicionalmente considerada un axioma irreducible, es una propiedad emergente de la aritmética modular. La identidad $\pi = -i (\ln \zeta(0) + \ln 2)$ ha sido validada con una precisión de 150 dígitos, confirmando que la relación entre la termodinámica del vacío y la información binaria no es asintótica, sino \textbf{estructuralmente exacta}.
+This work demonstrates that spatial geometry, traditionally considered an irreducible axiom, is an emergent property of modular arithmetic. The identity $\pi = -i (\ln \zeta(0) + \ln 2)$ has been validated with 150-digit precision, confirming that the relationship between vacuum thermodynamics and binary information is not asymptotic, but **structurally exact**.
 
-Concluimos que:
+We conclude that:
 \begin{itemize}
-    \item El espacio-tiempo es la manifestación macroscópica (fase) de un procesamiento de información discreto subyacente gobernado por $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP, PeinadorGenesis}.
-    \item La constante $\pi$ puede sintetizarse íntegramente a partir de magnitudes no geométricas, unificando la Teoría de Números y la Física Teórica.
-    \item La resolución de anomalías como la Tensión de Hubble es una consecuencia natural de entender el universo como un sistema de fases modulares \cite{PeinadorGenesis}.
+    \item Spacetime is the macroscopic manifestation (phase) of an underlying discrete information processing governed by $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP, PeinadorGenesis}.
+    \item The constant $\pi$ can be entirely synthesized from non-geometric magnitudes, unifying Number Theory and Theoretical Physics.
+    \item The resolution of anomalies such as the Hubble Tension is a natural consequence of understanding the universe as a system of modular phases \cite{PeinadorGenesis}.
 \end{itemize}
 
-El universo no está escrito en el lenguaje de las formas, sino en el lenguaje de los bits y sus rotaciones de fase en el vacío. La TSM ofrece, así, un camino firme hacia una física donde la aritmética y la realidad son una misma entidad.
+The universe is not written in the language of shapes, but in the language of bits and their phase rotations within the vacuum. MST thus offers a robust path toward a physics where arithmetic and reality are one and the same.
 
-\section*{Cómo citar}
+% --- Sección de Cita Sugerida (Versión Blindada) ---
+\section*{How to Cite}
 \noindent\fbox{%
     \parbox{\textwidth}{%
         \small
@@ -292,18 +295,18 @@ El universo no está escrito en el lenguaje de las formas, sino en el lenguaje d
 }
 
 % ----------------------------------------------------------------------
-% BIBLIOGRAFÍA COMPLETA
+% COMPLETE BIBLIOGRAPHY
 % ----------------------------------------------------------------------
 \begin{thebibliography}{99}
 
 \bibitem{PeinadorSpectrum}
-Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: From Prime Channel Structure to Elliptic Supercongruences (Versión v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18417862}
+Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: From Prime Channel Structure to Elliptic Supercongruences (Version v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18417862}
 
 \bibitem{PeinadorDSP}
-Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: Theoretical Unification, DSP Isomorphism, and Exascale Validation (Versión v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18455954}
+Peinador Sala, J. I. (2026). \textit{The Modular Spectrum of $\pi$: Theoretical Unification, DSP Isomorphism, and Exascale Validation (Version v2)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18455954}
 
 \bibitem{PeinadorGenesis}
-Peinador Sala, J. I. (2026). \textit{The Genesis of e and the Unification of Fundamental Constants from the Z/6Z Modular Substrate (Versión v1)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18673474}
+Peinador Sala, J. I. (2026). \textit{The Genesis of e and the Unification of Fundamental Constants from the Z/6Z Modular Substrate (Version v1)}. Zenodo. \url{https://doi.org/10.5281/zenodo.18673474}
 
 \bibitem{Shannon1948}
 Shannon, C. E. (1948). \textit{A Mathematical Theory of Communication}. The Bell System Technical Journal, 27, 379–423.
@@ -325,158 +328,158 @@ Castro, C., \& Mahecha, J. (2001). \textit{On Riemann’s Hypothesis, Complex En
 
 \end{thebibliography}
 
-
 % ----------------------------------------------------------------------
 \appendix
-\section{Análisis de Sustitución: De la Geometría a la Aritmética del Vacío}
+\section{Substitution Analysis: From Geometry to Vacuum Arithmetic}
 % ----------------------------------------------------------------------
 
-En esta sección, se realiza un ejercicio de consistencia lógica sustituyendo la identidad emergente $\pi = -i (\ln \zeta(0) + \ln 2)$ en diversas ecuaciones fundamentales de la física teórica. Este proceso revela que muchas magnitudes consideradas ``geométricas'' son, en realidad, manifestaciones de la impedancia informacional del sustrato modular.
+In this section, a logical consistency exercise is performed by substituting the emergent identity $\pi = -i (\ln \zeta(0) + \ln 2)$ into various fundamental equations of theoretical physics. This process reveals that many magnitudes previously considered ``geometric'' are, in fact, manifestations of the informational impedance of the modular substrate.
 
-\subsection{La Identidad de Euler como Ecuación de Estado}
+\subsection{Euler's Identity as an Equation of State}
 
-La identidad de Euler, $e^{i\pi} + 1 = 0$, es considerada el nexo entre el análisis complejo y la geometría. Al aplicar la Identidad Maestra de la TSM:
+Euler's identity, $e^{i\pi} + 1 = 0$, is considered the nexus between complex analysis and geometry. Applying the MST Master Identity:
 \begin{equation}
     e^{(\ln \zeta(0) + \ln 2)} + 1 = 0 \implies \zeta(0) \cdot 2 + 1 = 0 \implies \zeta(0) = -1/2
 \end{equation}
-Este resultado demuestra que la geometría circular ($e^{i\pi}$) es una consecuencia algebraica de que el estado fundamental del vacío sea $\zeta(0) = -1/2$. La ``belleza'' de la fórmula de Euler es, por tanto, la firma de la estabilidad aritmética del vacío \cite{PeinadorGenesis}.
+This result demonstrates that circular geometry ($e^{i\pi}$) is an algebraic consequence of the vacuum ground state being $\zeta(0) = -1/2$. The ``beauty'' of Euler's formula is therefore the signature of the vacuum's arithmetic stability \cite{PeinadorGenesis}.
 
-\subsection{Gravedad Entrópica y la Constante de Einstein}
+\subsection{Entropic Gravity and the Einstein Constant}
 
-En Relatividad General, la constante de acoplamiento de Einstein $\kappa = 8\pi G$ define la curvatura del espacio-tiempo. Bajo la TSM, esta constante se redefine como:
+In General Relativity, the Einstein coupling constant $\kappa = 8\pi G$ defines the curvature of spacetime. Under MST, this constant is redefined as:
 \begin{equation}
     \kappa = -8i G \ln(2\zeta(0))
 \end{equation}
-La aparición del factor imaginario $-i$ y el logaritmo del potencial del vacío sugiere que la gravedad no es una fuerza fundamental de curvatura, sino una fuerza entrópica resultante de la tendencia del sustrato a equilibrar su contenido de información \cite{Hooft1993}. La gravedad ``emerge'' de la fase del bit.
+The appearance of the imaginary factor $-i$ and the logarithm of the vacuum potential suggests that gravity is not a fundamental curvature force, but rather an entropic force resulting from the substrate's tendency to balance its information content \cite{Hooft1993}. Gravity ``emerges'' from the phase of the bit.
 
-\subsection{El Cuanto de Acción como Tasa de Bits}
+\subsection{The Action Quantum as a Bit Rate}
 
-La relación entre la constante de Planck ($h$) y su forma reducida ($\hbar$) es $h = 2\pi\hbar$. Sustituyendo la identidad modular:
+The relationship between the Planck constant ($h$) and its reduced form ($\hbar$) is $h = 2\pi\hbar$. Substituting the modular identity:
 \begin{equation}
     h = -2i \hbar \left[ \ln(\zeta(0)) + \ln 2 \right]
 \end{equation}
-Esta formulación interpreta la acción física ($h$) no como un bloque de energía, sino como el costo termodinámico de procesar un bit de información ($\ln 2$) contra la resistencia del vacío ($\zeta(0)$). La cuantización de la energía es, por tanto, la cuantización del procesamiento de datos en el sustrato $\mathbb{Z}/6\mathbb{Z}$ \cite{PeinadorDSP}.
+This formulation interprets physical action ($h$) not as a block of energy, but as the thermodynamic cost of processing one bit of information ($\ln 2$) against vacuum resistance ($\zeta(0)$). Energy quantization is, therefore, the quantization of data processing within the $\mathbb{Z}/6\mathbb{Z}$ substrate \cite{PeinadorDSP}.
 
-\subsection{Saturación Informacional en Agujeros Negros}
+\subsection{Informational Saturation in Black Holes}
 
-La entropía de Bekenstein-Hawking, $S_{BH} \propto \frac{A}{\hbar G}$, incluye en su forma de Schwarzschild el área $A = 16\pi G^2 M^2 / c^4$. Al sustituir $\pi$:
+Bekenstein-Hawking entropy, $S_{BH} \propto \frac{A}{\hbar G}$, includes in its Schwarzschild form the area\\ $A = 16\pi G^2 M^2 / c^4$. Substituting $\pi$:
 \begin{equation}
     S_{BH} = \frac{4 G M^2 k_B}{\hbar c} \left[ -i (\ln \zeta(0) + \ln 2) \right]
 \end{equation}
-Esta expresión valida el Principio Holográfico desde una base aritmética: la entropía del horizonte no mide una superficie geométrica real, sino la saturación de bits que el vacío puede soportar antes de la ruptura de la coherencia de fase \cite{PeinadorGenesis, Hooft1993}. La ``singularidad'' es el límite donde el logaritmo complejo de la información se vuelve singular.
+This expression validates the Holographic Principle from an arithmetic basis: the horizon entropy does not measure a real geometric surface, but rather the saturation of bits that the vacuum can support before the breakdown of phase coherence \cite{PeinadorGenesis, Hooft1993}. The ``singularity'' is the limit where the complex logarithm of information becomes singular.
 
 % ==============================================================================
-% AGRADECIMIENTOS
+% ACKNOWLEDGMENTS
 % ==============================================================================
-\section*{Agradecimientos}
+\section*{Acknowledgments}
 
-El autor expresa su gratitud a:
+The author expresses his gratitude to:
 
 \begin{itemize}
-    \item La comunidad de desarrollo de software de código abierto, particularmente a los creadores y mantenedores de \textsc{Python} y de la librería \textsc{mpmath}. Sin la capacidad de realizar aritmética de precisión arbitraria de forma accesible, la validación de 150 dígitos presentada en la Sección \ref{sec:validacion} habría sido imposible.
+    \item The open-source software development community, particularly the creators and maintainers of \textsc{Python} and the \textsc{mpmath} library. Without the ability to perform accessible arbitrary-precision arithmetic, the 150-digit validation presented in Section \ref{sec:validacion} would have been impossible.
 
-    \item A los arquitectos de \textsc{Google Colab}, por democratizar el acceso a entornos computacionales reproducibles que permiten a investigadores independientes auditar y compartir sus resultados sin barreras económicas.
+    \item The architects of \textsc{Google Colab}, for democratizing access to reproducible computational environments that allow independent researchers to audit and share their results without economic barriers.
 
-    \item A la tradición intelectual que, desde Shannon hasta Wheeler, ha ido sembrando la intuición de que la información podría ser más fundamental que la materia y la geometría. La célebre máxima de Wheeler, \textit{``It from Bit''}, ha sido una inspiración constante.
+    \item The intellectual tradition that, from Shannon to Wheeler, has sown the intuition that information might be more fundamental than matter and geometry. Wheeler's celebrated maxim, \textit{``It from Bit''}, has been a constant source of inspiration.
 
-    \item A los interlocutores anónimos en foros especializados que, con su escepticismo constructivo y preguntas incisivas, obligaron a refinar los argumentos y buscar las demostraciones más sólidas.
+    \item The anonymous interlocutors in specialized forums whose constructive skepticism and incisive questions forced the refinement of arguments and the search for the most robust demonstrations.
 \end{itemize}
 
 % ==============================================================================
-% DECLARACIÓN DE USO DE IA
+% AI USE DECLARATION
 % ==============================================================================
-\section*{Declaración de Uso de IA}
+\section*{AI Use Declaration}
 
-En coherencia con los principios de transparencia científica, se declara que en la preparación de este manuscrito se utilizaron herramientas de inteligencia artificial (modelos de lenguaje de gran escala, LLM) como apoyo instrumental en las siguientes tareas:
+In accordance with scientific transparency principles, it is declared that Large Language Models (LLMs) were used as instrumental support in the preparation of this manuscript for the following tasks:
 
 \begin{enumerate}
-    \item \textbf{Refinamiento de la redacción técnica:} Mejora de la fluidez y precisión del lenguaje científico, tanto en español como en las versiones traducidas al inglés.
-    \item \textbf{Revisión de consistencia lógica:} Simulación de un proceso de revisión crítica (\textit{adversarial review}) para identificar posibles saltos argumentales o falacias preliminares.
-    \item \textbf{Optimización de código:} Asistencia en la refactorización de los scripts de validación numérica de alta precisión (150 dígitos) para garantizar su claridad y reproducibilidad.
+    \item \textbf{Refinement of technical writing:} Enhancing the fluency and precision of scientific language in both the original Spanish and the translated English versions.
+    \item \textbf{Logical consistency review:} Simulating an adversarial review process to identify potential argumentative gaps or preliminary fallacies.
+    \item \textbf{Code optimization:} Assisting in the refactoring of high-precision numerical validation scripts (150 digits) to ensure clarity and reproducibility.
 \end{enumerate}
 
-\textbf{Puntualización crucial:} El contenido intelectual fundamental de este trabajo —la hipótesis del sustrato $\mathbb{Z}/6\mathbb{Z}$, la derivación de la identidad $\pi = -i (\ln \zeta(0) + \ln 2)$, la interpretación de $\zeta(0)$ como estado termodinámico del vacío, y todas las conclusiones físicas y ontológicas— es obra exclusiva del autor. Las herramientas de IA actuaron como asistentes de proceso, no como agentes de descubrimiento conceptual.
+\textbf{Crucial clarification:} The fundamental intellectual content of this work—the $\mathbb{Z}/6\mathbb{Z}$ substrate hypothesis, the derivation of the identity $\pi = -i (\ln \zeta(0) + \ln 2)$, the interpretation of $\zeta(0)$ as the thermodynamic state of the vacuum, and all physical and ontological conclusions—is the sole work of the author. AI tools acted as process assistants, not as agents of conceptual discovery.
 
 % ==============================================================================
-% DECLARACIÓN DE INTERESES Y FINANCIACIÓN
+% COMPETING INTERESTS AND FUNDING
 % ==============================================================================
-\section*{Declaración de Intereses y Financiación}
+\section*{Competing Interests and Funding}
 
 \begin{itemize}
-    \item \textbf{Financiación:} Esta investigación ha sido realizada íntegramente con recursos propios del autor. No ha recibido financiación externa, pública ni privada.
+    \item \textbf{Funding:} This research was conducted entirely using the author's own resources. It received no external funding, whether public or private.
 
-    \item \textbf{Conflictos de interés:} El autor declara no tener ningún conflicto de interés, financiero, profesional o personal, que pudiera haber influido en el diseño, ejecución o interpretación de los resultados presentados en este trabajo.
+    \item \textbf{Competing interests:} The author declares no competing financial, professional, or personal interests that could have influenced the design, execution, or interpretation of the results presented in this work.
 \end{itemize}
 
 % ==============================================================================
-% DISPONIBILIDAD DE DATOS Y MATERIALES
+% DATA AND MATERIALS AVAILABILITY
 % ==============================================================================
-\section*{Disponibilidad de Datos y Materiales}
+\section*{Data and Materials Availability}
 
-En concordancia con los principios de ciencia abierta y reproducibilidad, todos los materiales asociados a esta investigación son de acceso público:
+In accordance with open science and reproducibility principles, all materials associated with this research are publicly accessible:
 
 \begin{itemize}
-    \item \textbf{Código fuente:} Los scripts completos de validación numérica con precisión de 150 dígitos (implementados en Python utilizando la biblioteca \texttt{mpmath}) están disponibles en el siguiente repositorio:
+    \item \textbf{Source code:} The complete numerical validation scripts with 150-digit precision (implemented in Python using the \texttt{mpmath} library) are available at the following repository:
     \begin{center}
     \url{https://github.com/NachoPeinador/The-Emergence-of-Geometry}
     \end{center}
 
-    \item \textbf{Entornos reproducibles:} Se proporcionan notebooks interactivos de Google Colab que permiten ejecutar y verificar de forma inmediata la identidad fundamental $\pi = -i (\ln \zeta(0) + \ln 2)$ y todas las comprobaciones auxiliares.
+    \item \textbf{Reproducible environments:} Interactive Google Colab notebooks are provided, allowing for the immediate execution and verification of the fundamental identity\\ $\pi = -i (\ln \zeta(0) + \ln 2)$ and all auxiliary checks.
 
-    \item \textbf{Datos derivados:} Las tablas de resultados numéricos y los logs de las ejecuciones de alta precisión se incluyen como material complementario en el repositorio.
-    
-    \item \textbf{Licencias:} El contenido intelectual de este manuscrito (texto, ecuaciones y figuras) se distribuye bajo una licencia \textbf{Creative Commons Atribución 4.0 Internacional (CC BY 4.0)}. El código fuente de validación asociado se proporciona bajo la \textbf{Licencia MIT}.
+    \item \textbf{Derived data:} Numerical result tables and high-precision execution logs are included as supplementary material in the repository.
 \end{itemize}
 
-Cualquier investigador con conexión a internet puede, por tanto, replicar íntegramente los resultados de la Sección \ref{sec:validacion} en cuestión de minutos.
+The text, equations, and original figures of this manuscript are licensed under a \textbf{Creative Commons Attribution 4.0 International License (CC BY 4.0)}. The associated source code is provided under the \textbf{MIT License}.
+
+Any researcher with an internet connection can, therefore, fully replicate the results of Section \ref{sec:validacion} in a matter of minutes.
 
 % ==============================================================================
-% CONTRIBUCIÓN DEL AUTOR
+% AUTHOR CONTRIBUTION
 % ==============================================================================
-\section*{Contribución del Autor}
+\section*{Author Contribution}
 
-\textbf{José Ignacio Peinador Sala} es el único autor de este trabajo y asume la responsabilidad completa sobre todas sus partes:
+\textbf{José Ignacio Peinador Sala} is the sole author of this work and assumes full responsibility for all its parts:
 
 \begin{itemize}
-    \item \textbf{Concepción teórica:} Formulación de la hipótesis del sustrato modular $\mathbb{Z}/6\mathbb{Z}$ como capa fundamental de procesamiento de información. Postulado de que $\zeta(0)$ representa el estado termodinámico del vacío aritmético.
+    \item \textbf{Theoretical conception:} Formulation of the $\mathbb{Z}/6\mathbb{Z}$ modular substrate hypothesis as the fundamental information-processing layer. Postulating that $\zeta(0)$ represents the thermodynamic state of the arithmetic vacuum.
 
-    \item \textbf{Desarrollo matemático:} Derivación analítica de la identidad $\pi = -i (\ln \zeta(0) + \ln 2)$. Conexión formal con la Identidad de Euler y con la impedancia informacional $R_{\text{fund}}$ de trabajos previos.
+    \item \textbf{Mathematical development:} Analytical derivation of the identity $\pi = -i (\ln \zeta(0) + \ln 2)$. Formal connection with Euler's Identity and the informational impedance $R_{\text{fund}}$ from previous works.
 
-    \item \textbf{Validación numérica:} Diseño e implementación del protocolo de validación de precisión arbitraria (150 dígitos) y análisis de los resultados.
+    \item \textbf{Numerical validation:} Design and implementation of the arbitrary-precision validation protocol (150 digits) and analysis of the results.
 
-    \item \textbf{Interpretación ontológica:} Elaboración del marco conceptual que sitúa la geometría como fase emergente de la aritmética y la información.
+    \item \textbf{Ontological interpretation:} Development of the conceptual framework positioning geometry as an emergent phase of arithmetic and information.
 
-    \item \textbf{Redacción:} Escritura completa del manuscrito, preparación de figuras y tablas, y revisión final.
+    \item \textbf{Writing:} Full manuscript drafting, preparation of figures and tables, and final revision.
 \end{itemize}
 
 % ==============================================================================
-% CORRESPONDENCIA
+% CORRESPONDENCE
 % ==============================================================================
-\section*{Correspondencia}
+\section*{Correspondence}
 
-Toda correspondencia científica relacionada con este trabajo debe dirigirse a:
+All scientific correspondence regarding this work should be addressed to:
 
 \begin{center}
 \textbf{José Ignacio Peinador Sala} \\
-\textit{Investigador Independiente} \\
-Valladolid, España \\
+\textit{Independent Researcher} \\
+Valladolid, Spain \\
 \href{mailto:joseignacio.peinador@gmail.com}{joseignacio.peinador@gmail.com}
 \end{center}
 
-\noindent El autor acogerá con interés cualquier comentario, réplica, sugerencia de mejora o intento de falsación experimental de las hipótesis aquí presentadas.
+\noindent The author welcomes any comments, replies, suggestions for improvement, or attempts at experimental falsification of the hypotheses presented herein.
 
 \vspace{1cm}
 \begin{center}
-\textit{A mi mujer, a mi hijo y a mi perro:} \
-\textit{sin vuestro amor incondicional, no habría sobrevivido a esta aventura.}
+\textit{To my wife, my son, and my dog:} \\
+\textit{without your unconditional love, I would not have survived this adventure.}
 
 \vspace{0.5cm}
-\textit{Con la curiosidad del niño, la insolencia del adolescente,} \
-\textit{la pasión del enamorado, y la humildad del anciano,} \
-\textit{como un pirata, libre por mares ajenos.}
+\textit{With the curiosity of a child, the insolence of a teenager,} \\
+\textit{the passion of a lover, and the humility of an elder,} \\
+\textit{like a pirate, free across foreign seas.}
 
 \vspace{0.5cm}
-\textit{Cualquier otra persona podría haberlo hecho.}
+\textit{Anyone else could have done it.}
 \end{center}
 
 \end{document}
+
