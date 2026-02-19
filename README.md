@@ -183,5 +183,5 @@ If this work contributes to your research, please cite it as follows:
 ---
 
 <p align="center">
-  <em>La parsimonia es la ley; la aritmética es el juez.</em>
+  <em>Parsimony is the law; arithmetic is the judge.</em>
 </p>
