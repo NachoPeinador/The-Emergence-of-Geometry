@@ -1,6 +1,6 @@
 # La Emergencia de la Geometría: $\pi$ como la Fase Imaginaria de la Información Modular
 
-[![Leer en Inglés](https://img.shields.io/badge/Lang-Read%20in%20English-blue?style=flat&logoColor=white&color=005288)](#)
+[![Leer en Inglés](https://img.shields.io/badge/Lang-Read%20in%20English-blue?style=flat&logoColor=white&color=005288)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/README.md)
 [![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
