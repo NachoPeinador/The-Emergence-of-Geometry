@@ -2,7 +2,7 @@
 
 **Project:** The Fine Structure of the Arithmetic Vacuum
 **Author:** José Ignacio Peinador Sala
-**Repository:** [https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha](https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha)
+**Repository:** [https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha](The-Emergence-of-Geometry)
 
 ---
 
@@ -22,7 +22,7 @@ All software, scripts, and algorithmic implementations (specifically contents wi
 * **Full Text:** [See LICENSE](./LICENSE)
 
 ### B. Scientific Paper, Documentation, and Visuals
-The academic paper (`paper/Arithmetic-Vacuum-Alpha.pdf`) and the README documentation are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The academic paper (`paper/The_Emergence_of_Geometry.pdf`) and the README documentation are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 * **You are free to:** Share, copy, and redistribute the material in any medium or format.
 * **Under the following terms:** You must give **appropriate credit**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
