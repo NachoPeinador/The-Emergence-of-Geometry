@@ -28,7 +28,7 @@ We show that the "circularity" of space is the imaginary manifestation required 
 
 ---
 
-## 💎 The Master Identity of Peinador Sala
+## 💎 The MST Fundamental Identity
 
 The core of this work is the structural identity linking the vacuum ground state, binary information, and the geometric constant:
 
