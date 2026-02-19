@@ -2,12 +2,15 @@
 
 [![Read in Spanish](https://img.shields.io/badge/Lang-Leer%20en%20Español-red?style=flat&logoColor=white&color=B31B1B)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Precision](https://img.shields.io/badge/Identity--Pi-10%E2%81%BB%C2%B1%E2%81%B1%E2%81%B5%E2%81%B0-brightgreen)](#)
+[![CODATA 2022](https://img.shields.io/badge/CODATA-Matched-success)](https://physics.nist.gov/cuu/Constants/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) 
 [![Hubble Tension](https://img.shields.io/badge/H0--Resolved-73.45-success)](#)
-[![DOI](https://img.shields.io/badge/DOI-Pending-lightgrey)](#)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18609093.svg)](https://doi.org/10.5281/zenodo.18611630)
+[![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/Arithmetic-Vacuum-Alpha.pdf)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/Validation_Alpha.ipynb)
 
 > **"Geometry is the Interface; Arithmetic is the Source Code. $\pi$ is the phase residue of the Vacuum's computation."**
 
