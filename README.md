@@ -90,31 +90,36 @@ MST predicts that $H_0$ is the rate of "phase creation". We resolve the $>5\sigm
 - **Predicted Local $H_0$:** $73.45$ km/s/Mpc (Matches SH0ES/Local measurements).
 - **Mechanism:** In the early universe, the geometric phase $\pi$ had not yet fully emerged from the discrete substrate, explaining the lower CMB values.
 
-
-
 ---
 
-## 🛠️ Scientific Reproducibility
+## 🛠️ Scientific Reproducibility & Executable Validation
 
-Run the 150-digit precision audit directly in your browser:
+You can audit the results of the **Modular Substrate Theory** using the provided high-precision engine (150 digits).
 
-| Resource | Link |
-| :--- | :--- |
-| **Python Audit** | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
-| **Full Manuscript (PDF)** | [![Paper](https://img.shields.io/badge/Paper-Download_PDF-B31B1B)](#) |
-| **LaTeX Source** | [Browse Files](./Paper/) |
+### Option A: One-Click (Google Colab)
+Run the master audit directly in your browser without installing anything:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TU_URL_DE_COLAB_AQUI)
+
+### Option B: Local Execution (Terminal)
+If you have Python installed, run the following command to execute the audit:
+```bash
+curl -sSL [https://raw.githubusercontent.com/NachoPeinador/The-Emergence-of-Geometry/main/Scripts/master_audit.py](https://raw.githubusercontent.com/NachoPeinador/The-Emergence-of-Geometry/main/Scripts/master_audit.py) | python3
+```
+### Option C: Manual Install
+Clone the repo: git clone https://github.com/NachoPeinador/The-Emergence-of-Geometry.git
+
+Run the script: python Scripts/master_audit.py
 
 ---
 
 ## 📂 Repository Structure
-
 
 ```
 
 ├── README.md                # Project overview
 ├── LICENSE                  # MIT License
 ├── Scripts/
-│   └── pi_validation.py     # 150-digit mpmath validation script
+│   └── master_audit.py      # 150-digit mpmath validation script
 └── Paper/
 ├── Emergence_of_Geometry.pdf   # Final Manuscript
 └── Emergence_of_Geometry.tex   # LaTeX source
