@@ -10,7 +10,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18609093.svg)](https://doi.org/10.5281/zenodo.18611630)
-[![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/Arithmetic-Vacuum-Alpha.pdf)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/Validation_Alpha.ipynb)
+[![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/The_Emergence_of_Geometry.pdf)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/The_Emergence_of_Geometry.ipynb)
 
 > **"Geometry is the Interface; Arithmetic is the Source Code. $\pi$ is the phase residue of the Vacuum's computation."**
 
@@ -54,8 +54,6 @@ With this paper, the architecture of the **Modular Substrate Theory** is complet
 | **Level 1** | **Arithmetic** | $\mathbb{Z}/6\mathbb{Z}$ | **Hardware:** Lossless processing (DSP Isomorphism) |
 | **Level 2** | **Thermodynamic** | $e, \alpha, R_{\text{fund}}$ | **Software:** Informational efficiency & coupling |
 | **Level 3** | **Geometric** | $\pi$ | **Interface:** Emergent phase of the continuum |
-
-
 
 ---
 
@@ -105,7 +103,7 @@ You can audit the results of the **Modular Substrate Theory** using the provided
 
 ### Option A: One-Click (Google Colab)
 Run the master audit directly in your browser without installing anything:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TU_URL_DE_COLAB_AQUI)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/The_Emergence_of_Geometry.ipynb)
 
 ### Option B: Local Execution (Terminal)
 If you have Python installed, run the following command to execute the audit:
@@ -141,9 +139,12 @@ Run the script: python Scripts/master_audit.py
 ├── LICENSE                  # MIT License
 ├── Scripts/
 │   └── master_audit.py      # 150-digit mpmath validation script
+├── Notebooks/
+    ├── Emergence_of_Geometry.pdf   # Final Manuscript
+    └── Emergence_of_Geometry.tex   # LaTeX source
 └── Paper/
-├── Emergence_of_Geometry.pdf   # Final Manuscript
-└── Emergence_of_Geometry.tex   # LaTeX source
+    ├── Emergence_of_Geometry.pdf   # Final Manuscript
+    └── Emergence_of_Geometry.tex   # LaTeX source
 
 ```
 
@@ -174,7 +175,5 @@ If this work contributes to your research, please cite it as follows:
 ---
 
 *Parsimony is the law; Arithmetic is the judge.*
-
-```
 
 ```
