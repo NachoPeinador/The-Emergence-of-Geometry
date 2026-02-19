@@ -168,8 +168,9 @@ If this work contributes to your research, please cite it as follows:
 
 ## ✉️ Contact
 
-**José Ignacio Peinador Sala** *Independent Researcher* 📧 [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com)
-
+**José Ignacio Peinador Sala** *Independent Researcher* 
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
+📧 [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com)
 🐦 X/Twitter: [@todos_lumpen](https://twitter.com/todos_lumpen)
 
 ---
