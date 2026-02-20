@@ -118,7 +118,7 @@ curl -sSL [https://raw.githubusercontent.com/NachoPeinador/The-Emergence-of-Geom
 
 | Fase | Artículo de Investigación y Badge DOI |
 | :--- | :--- |
-| **Emergencia de la Geometría** | [![DOI:10.5281/zenodo.xxxxxx](https://img.shields.io/badge/Paper-Emergence_of_Geometry-B31B1B?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.xxxxxx) |
+| **Emergencia de la Geometría** | [![DOI:10.5281/zenodo.18703611](https://img.shields.io/badge/Paper-Emergence_of_Geometry-B31B1B?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18703611) |
 | **Génesis de $e$** | [![DOI:10.5281/zenodo.18673474](https://img.shields.io/badge/Paper-The_Genesis_of_e-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18673474) |
 | **Estructura Fina** | [![DOI:10.5281/zenodo.18611630](https://img.shields.io/badge/Paper-Fine_Structure_of_Vacuum-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18611630) |
 | **Teoría del Sustrato** | [![DOI:10.5281/zenodo.18609093](https://img.shields.io/badge/Theory-Modular_Substrate-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18609093) |
