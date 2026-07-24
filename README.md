@@ -81,10 +81,11 @@ Run the master quantum simulation notebook directly in your browser:
 | Phase / Focus | Title & Research Artifacts | Status / Repository |
 | --- | --- | --- |
 | **Optimal Phase & MQS** | **$\pi$ as the Optimal Phase in Modular Quantum Superselection** | [](https://zenodo.org/records/18703610) |
-| **Emergence of Geometry** | The Emergence of Geometry: $\pi$ as the Imaginary Phase | [](https://zenodo.org/records/18703611) |
 | **Genesis $e$** | The Genesis of e from Modular Substrate Theory: Exact Identities, Eratosthenes Optimality, and the Riemann Zeta Function | [](https://zenodo.org/records/18673473) | 
-| **Fine-Structure** | Fine-Structure Constant $\alpha$ from Modular Ring | [](https://zenodo.org/records/18611630) |
-| **Core Substrate** | Spectral-Arithmetic Duality in Vacuum Dynamics | [](https://zenodo.org/records/18609093) |
+| **Fine-Structure** | Infrared Limit of the Fine-Structure Constant: Global Gauge Group Center and Non-Perturbative Spectral Action | [](https://zenodo.org/records/18611629) |
+| **Core Substrate** | Informational Impedance of the Quantum Vacuum: Algebraic Derivation, Eratosthenes Optimality, and Fractal Ontology in Modular Substrate Theory | [](https://zenodo.org/records/20546608) |
+| **DSP Substrate** | Polyphase isomorphism between modular arithmetic and multirate digital signal processing: With formal verification in Lean 4 and computational validation | [](https://zenodo.org/records/17680023) |
+| **Cosmologic Substrate** | Resolving the Hubble and S8 Tensions via Informational Friction in the Modular Substrate Theory | [](https://zenodo.org/records/18609092) |
 
 ---
 
