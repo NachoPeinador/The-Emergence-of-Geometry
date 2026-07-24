@@ -73,46 +73,6 @@ Run the master quantum simulation notebook directly in your browser:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 [![Open Lean 4 Colab](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 
-
----
-
-## 🧬 Modular Substrate Theory (MST) Ecosystem
-
-| Phase / Focus | Title & Research Artifacts | Status / Repository |
-| --- | --- | --- |
-| **Optimal Phase & MQS** | **$\pi$ as the Optimal Phase in Modular Quantum Superselection** | [](https://zenodo.org/records/18703610) |
-| **Genesis $e$** | The Genesis of e from Modular Substrate Theory: Exact Identities, Eratosthenes Optimality, and the Riemann Zeta Function | [](https://zenodo.org/records/18673473) | 
-| **Fine-Structure** | Infrared Limit of the Fine-Structure Constant: Global Gauge Group Center and Non-Perturbative Spectral Action | [](https://zenodo.org/records/18611629) |
-| **Core Substrate** | Informational Impedance of the Quantum Vacuum: Algebraic Derivation, Eratosthenes Optimality, and Fractal Ontology in Modular Substrate Theory | [](https://zenodo.org/records/20546608) |
-| **DSP Substrate** | Polyphase isomorphism between modular arithmetic and multirate digital signal processing: With formal verification in Lean 4 and computational validation | [](https://zenodo.org/records/17680023) |
-| **Cosmologic Substrate** | Resolving the Hubble and S8 Tensions via Informational Friction in the Modular Substrate Theory | [](https://zenodo.org/records/18609092) |
-
----
-
-## 📂 Repository Structure
-
-```text
-.
-├── README.md                    # Project overview & reproduction guide
-├── LICENSE                      # MIT License
-├── Lean4/                       # Formal Verification Suite
-│   ├── lakefile.lean            # Lake project configuration
-│   ├── lean-toolchain           # Lean 4 version specification
-│   └── MQS/
-│       ├── ModularRing.lean     # Z/6Z ring and unit group Z2 isomorphism
-│       └── ParityShield.lean    # Mechanized proof of optimal phase π
-├── Notebooks/
-│   ├── Optimal_Phase_MQS.ipynb  # Interactive Lindblad & Qiskit simulation
-│   └── PRA_Optimal_Phase.pdf    # Submitted Manuscript (Physical Review A)
-├── Scripts/
-│   ├── master_audit.py          # Standalone Python simulation script
-│   └── gue_noise_model.py       # GUE noise generator & master equation solver
-└── Paper/
-    ├── PRA_Optimal_Phase.tex    # LaTeX source code
-    └── references.bib           # Bibliographic database
-
-```
-
 ---
 
 ## 📜 License
