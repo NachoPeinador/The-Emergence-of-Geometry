@@ -9,7 +9,8 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/Optimal_Phase_MQS.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
+[![Open Lean 4 Verified](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 
 > **"In discrete modular quantum substrates, phase $\pi$ is not merely a geometric constant; it is the optimal parity shield against decoherence under $\mathbb{Z}/6\mathbb{Z}$ superselection."**
 
