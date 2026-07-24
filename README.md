@@ -68,7 +68,7 @@ The repository combines rigorous interactive theorem proving with numerical quan
 
 You can audit the complete replication package in three ways:
 
-### Option A: Interactive Browser Audit (Google Colab)
+### Interactive Browser Audit (Google Colab)
 Run the master quantum simulation notebook directly in your browser:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 [![Open Lean 4 Colab](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
@@ -80,11 +80,11 @@ Run the master quantum simulation notebook directly in your browser:
 
 | Phase / Focus | Title & Research Artifacts | Status / Repository |
 | --- | --- | --- |
-| **Optimal Phase & MQS** | **$\pi$ as the Optimal Phase in Modular Quantum Superselection** | [](https://www.google.com/url?sa=E&source=gmail&q=https://doi.org/10.5281/zenodo.18703610) |
-| **Emergence of Geometry** | The Emergence of Geometry: $\pi$ as the Imaginary Phase | [](https://doi.org/10.5281/zenodo.18703611) |
-| **Genesis $e$** | The Genesis of $e$: Information Capacity of Vacuum | [](https://doi.org/10.5281/zenodo.18673474) |
-| **Fine-Structure** | Fine-Structure Constant $\alpha$ from Modular Ring | [](https://doi.org/10.5281/zenodo.18611630) |
-| **Core Substrate** | Spectral-Arithmetic Duality in Vacuum Dynamics | [](https://doi.org/10.5281/zenodo.18609093) |
+| **Optimal Phase & MQS** | **$\pi$ as the Optimal Phase in Modular Quantum Superselection** | [](https://zenodo.org/records/18703610) |
+| **Emergence of Geometry** | The Emergence of Geometry: $\pi$ as the Imaginary Phase | [](https://zenodo.org/records/18703611) |
+| **Genesis $e$** | The Genesis of e from Modular Substrate Theory: Exact Identities, Eratosthenes Optimality, and the Riemann Zeta Function | [](https://zenodo.org/records/18673473) | 
+| **Fine-Structure** | Fine-Structure Constant $\alpha$ from Modular Ring | [](https://zenodo.org/records/18611630) |
+| **Core Substrate** | Spectral-Arithmetic Duality in Vacuum Dynamics | [](https://zenodo.org/records/18609093) |
 
 ---
 
