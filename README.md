@@ -3,14 +3,14 @@
 [![Physical Review A](https://img.shields.io/badge/PRA-Submitted%20(AU13116)-B31B1B?style=flat&logo=physics)](https://journals.aps.org/pra)
 [![Status: With Editors](https://img.shields.io/badge/Status-With%20Editors-orange?style=flat)](#)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18703610.svg)](https://doi.org/10.5281/zenodo.18703610)
-[![Lean 4 Verified](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://leanprover-community.github.io/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
-[![Open Lean 4 Verified](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
+[![Open Lean 4 Colab](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 
 > **"In discrete modular quantum substrates, phase $\pi$ is not merely a geometric constant; it is the optimal parity shield against decoherence under $\mathbb{Z}/6\mathbb{Z}$ superselection."**
 
@@ -72,28 +72,9 @@ You can audit the complete replication package in three ways:
 
 ### Option A: Interactive Browser Audit (Google Colab)
 Run the master quantum simulation notebook directly in your browser:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/Optimal_Phase_MQS.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
+[![Open Lean 4 Colab](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 
-### Option B: Local Verification of Lean 4 Proofs
-To verify the mechanized Lean 4 proofs locally on your machine:
-```bash
-# Clone the repository
-git clone [https://github.com/NachoPeinador/The-Emergence-of-Geometry.git](https://github.com/NachoPeinador/The-Emergence-of-Geometry.git)
-cd The-Emergence-of-Geometry/Lean4
-
-# Build project and check zero-axiom certification
-lake build
-```
-
-### Option C: Local Execution of Master Python Audit
-
-Run the numerical simulation suite and GUE noise suppression audit:
-
-```bash
-# Run simulation suite locally
-python3 Scripts/master_audit.py
-
-```
 
 ---
 
