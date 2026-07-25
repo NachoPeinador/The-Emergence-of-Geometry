@@ -1,6 +1,6 @@
 # $\pi$ as the Optimal Phase in Modular Quantum Superselection
 
-[![Physical Review A](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/π_as_the_Optimal_Phase_in_MQS.pdf)
+[![JPA](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/The-Emergence-of-Geometry/blob/main/Paper/π_as_the_Optimal_Phase_in_MQS.pdf)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18703610.svg)](https://doi.org/10.5281/zenodo.18703610)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/PYTHON_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
 [![Open Lean 4 Colab](https://img.shields.io/badge/Lean_4-Certified_0_Axioms-purple?style=flat&logo=lean)](https://colab.research.google.com/github/NachoPeinador/The-Emergence-of-Geometry/blob/main/Notebooks/LEAN_PRA_π_as_the_Optimal_Phase_in_MQS.ipynb)
@@ -109,3 +109,5 @@ If this work or codebase contributes to your research, please cite it as follows
 *Independent Researcher — Valladolid, Spain*
 
 ---
+
+📌 Publication Status: Submitted to *Journal of Physics A: Mathematical and Theoretical* in July 2026 - Manuscript ID: JPhysA-125419.
