@@ -36,11 +36,12 @@ If you use the Arithmetic Vacuum Alpha theory, the provided code, or the derived
 
 **BibTeX:**
 ```bibtex
-@misc{peinador2026emergence,
-  title={The Emergence of Geometry: Pi as the Imaginary Phase of Modular Information},
-  author={Peinador Sala, José Ignacio},
-  journal={Zenodo},
+@article{peinador2026pi_optimal_phase,
+  title={$\pi$ as the Optimal Phase in Modular Quantum Superselection},
+  author={Peinador Sala, Jos{\'e} Ignacio},
+  journal={Submitted to Journal of Physics A: Mathematical and Theoretical},
+  note={Manuscript ID: JPhysA-125419},
   year={2026},
-  doi={https://doi.org/10.5281/zenodo.18703611},
-  url={[https://github.com/NachoPeinador/The-Emergence-of-Geometry](https://github.com/NachoPeinador/The-Emergence-of-Geometry)}
-}
+  month={July},
+  doi={10.5281/zenodo.18703610},
+  url={https://github.com/NachoPeinador/The-Emergence-of-Geometry}
