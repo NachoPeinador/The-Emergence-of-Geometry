@@ -33,12 +33,8 @@ The entire algebraic core—including the optimal phase theorem and parity trans
 </div>
 
 <div align="center">
-  <em><b>Figure 1:</b> Topological noise shielding via $\pi$-phase chiral interference and $M=6$ polyphase filtering. <b>(Top)</b> Raw unshielded register signal submerged in GUE noise. <b>(Bottom)</b> Reconstructed spectrum showing how constructive interference doubles peak amplitudes while symmetric noise undergoes destructive cancellation, yielding a +6.07 dB SNR gain.</em>
+  <em><b>Figure 1:</b> Topological noise shielding via π-phase chiral interference and M=6 polyphase filtering. <b>(Top)</b> Raw unshielded register signal submerged in GUE noise. <b>(Bottom)</b> Reconstructed spectrum showing how constructive interference doubles peak amplitudes while symmetric noise undergoes destructive cancellation, yielding a +6.07 dB SNR gain.</em>
 </div>
-
----
-
-
 
 ---
 
