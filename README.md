@@ -88,14 +88,14 @@ If this work or codebase contributes to your research, please cite it as follows
 
 ```bibtex
 @article{peinador2026pi_optimal_phase,
-  title={$\pi$ as the Optimal Phase in Modular Quantum Substrates},
+  title={$\pi$ as the Optimal Phase in Modular Quantum Superselection},
   author={Peinador Sala, Jos{\'e} Ignacio},
-  journal={Submitted to Physical Review A},
-  note={Accession Code: AU13116},
+  journal={Submitted to Journal of Physics A: Mathematical and Theoretical},
+  note={Manuscript ID: JPhysA-125419},
   year={2026},
   month={July},
   doi={10.5281/zenodo.18703610},
-  url={[https://github.com/NachoPeinador/The-Emergence-of-Geometry](https://github.com/NachoPeinador/The-Emergence-of-Geometry)}
+  url={https://github.com/NachoPeinador/The-Emergence-of-Geometry}
 }
 
 ```
