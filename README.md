@@ -38,6 +38,10 @@ The entire algebraic core—including the optimal phase theorem and parity trans
 
 ---
 
+
+
+---
+
 ## 📐 Key Theoretical & Quantitative Results
 
 <div align="center">
