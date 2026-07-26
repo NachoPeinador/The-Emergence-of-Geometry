@@ -29,7 +29,7 @@ Via high-precision master equation numerical simulations (Lindblad dynamics) and
 The entire algebraic core—including the optimal phase theorem and parity transformations—is formally certified in the **Lean 4 proof assistant with zero omitted axioms**.
 
 <div align="center">
-  <img src="Images/DSP_Polyphase_Filter.pdf" alt="Topological Shielding and Noise Collapse" width="100%">
+  <img src="Images/DSP_Polyphase_Filter.png" alt="Topological Shielding and Noise Collapse" width="100%">
 </div>
 
 <div align="center">
